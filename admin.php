@@ -122,7 +122,7 @@ $allOk = !in_array(false, array_column($checks, 1), true);
 <meta name="robots" content="noindex">
 <title>Admin — <?= h(cfg('site_title')) ?></title>
 <link rel="icon" href="assets/camara-mark.png" type="image/png">
-<link rel="stylesheet" href="assets/style.css?v=7">
+<link rel="stylesheet" href="assets/style.css?v=8">
 </head>
 <body>
 <header class="top">

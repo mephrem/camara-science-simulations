@@ -43,7 +43,7 @@ foreach ($library as $sim => $info) {
         'sim' => $sim,
         'title' => sim_title($info, $fileLang, $sim),
         'desc' => sim_description($info, $fileLang),
-        'href' => $info['files'][$fileLang],
+        'href' => 'play.php?sim=' . rawurlencode($sim) . '&lang=' . rawurlencode($fileLang),
         'fileLang' => $fileLang,
         'thumb' => is_file(thumb_file($sim)) ? "sims/thumbs/{$sim}-600.png" : null,
         'tops' => $tops,
@@ -71,7 +71,7 @@ function initials(string $t): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?= h(cfg('site_title')) ?></title>
 <link rel="icon" href="assets/camara-mark.png" type="image/png">
-<link rel="stylesheet" href="assets/style.css?v=7">
+<link rel="stylesheet" href="assets/style.css?v=8">
 </head>
 <body>
 
@@ -183,7 +183,7 @@ function initials(string $t): string
           data-subs="<?= h(implode(' ', $c['subs'])) ?>"
           data-grades="<?= h(implode(' ', $c['grades'])) ?>"
           data-added="<?= (int)$c['added'] ?>">
-        <a href="<?= h($c['href']) ?>" target="_blank" rel="noopener" title="<?= h($c['desc']) ?>">
+        <a href="<?= h($c['href']) ?>" title="<?= h($c['desc']) ?>">
           <div class="thumb subj-<?= h($c['tops'][0] ?? 'none') ?>">
             <?php if ($c['thumb']): ?>
               <img src="<?= h($c['thumb']) ?>" alt="" loading="lazy" decoding="async">
