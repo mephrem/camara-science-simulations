@@ -125,7 +125,7 @@ function grade_levels(): array
 function locale_name(string $loc): string
 {
     static $names = [
-        'en' => 'English', 'am' => 'አማርኛ (Amharic)', 'om' => 'Afaan Oromoo', 'ti' => 'ትግርኛ (Tigrinya)',
+        'en' => 'English', 'am' => 'አማርኛ', 'om' => 'Afaan Oromoo', 'ti' => 'ትግርኛ',
         'so' => 'Soomaali', 'ar' => 'العربية', 'fr' => 'Français', 'es' => 'Español', 'sw' => 'Kiswahili',
         'pt' => 'Português', 'pt_BR' => 'Português (Brasil)', 'de' => 'Deutsch', 'zh_CN' => '中文 (简体)',
         'hi' => 'हिन्दी', 'ru' => 'Русский', 'tr' => 'Türkçe', 'it' => 'Italiano',

@@ -1,10 +1,12 @@
 {
     "updated": 1790369892,
-    "checked": 1790369904,
+    "checked": 1790414506,
     "sims": {
         "acid-base-solutions": {
             "title": {
-                "en": "Acid-Base Solutions"
+                "en": "Acid-Base Solutions",
+                "am": "አሲድ-ቤዝ ውህዶች",
+                "om": "Makaa Asiidii-Beezii"
             },
             "description": {
                 "en": "How do strong and weak acids differ? Use lab tools on your computer to find out! Dip the paper or the probe into solution to measure the pH, or put in the electrodes to measure the conductivity. Then see how concentration and strength affect pH. Can a weak acid solution have the same pH as a strong acid solution?"
@@ -18,13 +20,17 @@
             "isNew": false,
             "latest": "1.3.15",
             "versions": {
-                "en": "1.3.15"
+                "en": "1.3.15",
+                "am": "1.3.15",
+                "om": "1.3.15"
             },
             "added": 1790369448
         },
         "area-builder": {
             "title": {
-                "en": "Area Builder"
+                "en": "Area Builder",
+                "am": "የስፋት ገንቢ ",
+                "om": "Ijaarsa Bal'inaa"
             },
             "description": {
                 "en": "Create your own shapes using colorful blocks and explore the relationship between perimeter and area. Compare the area and perimeter of two shapes side-by-side. Challenge yourself in the game screen to build shapes or find the area of funky figures. Try to collect lots of stars!"
@@ -38,13 +44,17 @@
             "isNew": false,
             "latest": "1.1.38",
             "versions": {
-                "en": "1.1.38"
+                "en": "1.1.38",
+                "am": "1.1.38",
+                "om": "1.1.38"
             },
             "added": 1790369448
         },
         "area-model-algebra": {
             "title": {
-                "en": "Area Model Algebra"
+                "en": "Area Model Algebra",
+                "am": "የስፋት ሞዴል አልጀብራ",
+                "om": "Aljebraa Moodeela Bal'inaa"
             },
             "description": {
                 "en": "Build rectangles of various sizes and relate multiplication to area. Discover new strategies for multiplying algebraic expressions. Use the game screen to test your multiplication and factoring skills!"
@@ -58,13 +68,17 @@
             "isNew": false,
             "latest": "1.3.9",
             "versions": {
-                "en": "1.3.9"
+                "en": "1.3.9",
+                "am": "1.3.9",
+                "om": "1.3.9"
             },
             "added": 1790369448
         },
         "area-model-decimals": {
             "title": {
-                "en": "Area Model Decimals"
+                "en": "Area Model Decimals",
+                "am": "የአስርዮሻዊ ስፋት ሞዴል ",
+                "om": "Moodeela Bal'inaa Kurnyee"
             },
             "description": {
                 "en": "Build rectangles of various sizes and relate multiplication to area. Partition a rectangle into smaller areas and discover new strategies for multiplying decimals!"
@@ -78,13 +92,17 @@
             "isNew": false,
             "latest": "1.3.8",
             "versions": {
-                "en": "1.3.8"
+                "en": "1.3.8",
+                "am": "1.3.8",
+                "om": "1.3.8"
             },
             "added": 1790369448
         },
         "area-model-introduction": {
             "title": {
-                "en": "Area Model Introduction"
+                "en": "Area Model Introduction",
+                "am": "የስፋት ሞዴል መግቢያ",
+                "om": "Seensa Moodeela Bal'inaa"
             },
             "description": {
                 "en": "Build rectangles of various sizes and relate multiplication to area. Partition a rectangle into two areas to discover the distributive property."
@@ -98,13 +116,17 @@
             "isNew": false,
             "latest": "1.3.8",
             "versions": {
-                "en": "1.3.8"
+                "en": "1.3.8",
+                "am": "1.3.8",
+                "om": "1.3.8"
             },
             "added": 1790369448
         },
         "area-model-multiplication": {
             "title": {
-                "en": "Area Model Multiplication"
+                "en": "Area Model Multiplication",
+                "am": "በስፋት ሞዴል ማባዛት ",
+                "om": "Baay’isuu Moodeela Bal'inaa"
             },
             "description": {
                 "en": "Build rectangles of various sizes and relate multiplication to area. Discover new strategies for multiplying large numbers. Use the game screen to test your problem solving strategies!"
@@ -118,13 +140,17 @@
             "isNew": false,
             "latest": "1.3.9",
             "versions": {
-                "en": "1.3.9"
+                "en": "1.3.9",
+                "am": "1.3.9",
+                "om": "1.3.9"
             },
             "added": 1790369448
         },
         "arithmetic": {
             "title": {
-                "en": "Arithmetic"
+                "en": "Arithmetic",
+                "am": "አርቲሜቲክ",
+                "om": "Herrega"
             },
             "description": {
                 "en": "Remember your multiplication tables? Practice your multiplication, division, and factoring skills with this exciting game. No calculators allowed!"
@@ -138,13 +164,17 @@
             "isNew": false,
             "latest": "1.2.8",
             "versions": {
-                "en": "1.2.8"
+                "en": "1.2.8",
+                "am": "1.2.8",
+                "om": "1.2.8"
             },
             "added": 1790369448
         },
         "atomic-interactions": {
             "title": {
-                "en": "Atomic Interactions"
+                "en": "Atomic Interactions",
+                "am": "አተማዊ መስተጋብር",
+                "om": "Walitti Dhufeeyna Atoomaawaa"
             },
             "description": {
                 "en": "Explore the interactions between various combinations of two atoms. Observe the total force acting on the atoms or the individual attractive and repulsive forces. Customize the attraction to see how changing the atomic diameter and interaction strength affects the interaction."
@@ -160,13 +190,17 @@
             "isNew": false,
             "latest": "1.2.21",
             "versions": {
-                "en": "1.2.21"
+                "en": "1.2.21",
+                "am": "1.2.21",
+                "om": "1.2.21"
             },
             "added": 1790369448
         },
         "balancing-act": {
             "title": {
-                "en": "Balancing Act"
+                "en": "Balancing Act",
+                "am": "መመዘን",
+                "om": "Ulee Madaallii"
             },
             "description": {
                 "en": "Play with objects on a teeter totter to learn about balance. Test what you've learned by trying the Balance Challenge game."
@@ -182,13 +216,17 @@
             "isNew": false,
             "latest": "1.3.7",
             "versions": {
-                "en": "1.3.7"
+                "en": "1.3.7",
+                "am": "1.3.7",
+                "om": "1.3.7"
             },
             "added": 1790369448
         },
         "balancing-chemical-equations": {
             "title": {
-                "en": "Balancing Chemical Equations"
+                "en": "Balancing Chemical Equations",
+                "am": "የኬሚካል እኩልታዎችን ማመጣጠን",
+                "om": "Hima walqixaa Keemikaalaa Madaalchisuu"
             },
             "description": {
                 "en": "How do you know if a chemical equation is balanced? What can you change to balance an equation? Play a game to test your ideas!"
@@ -202,13 +240,17 @@
             "isNew": false,
             "latest": "2.1.2",
             "versions": {
-                "en": "2.1.2"
+                "en": "2.1.2",
+                "am": "2.1.2",
+                "om": "2.1.2"
             },
             "added": 1790369448
         },
         "balloons-and-static-electricity": {
             "title": {
-                "en": "Balloons and Static Electricity"
+                "en": "Balloons and Static Electricity",
+                "am": "ፊኛዎችና የስታቲካ ኤሌክትሪክ",
+                "om": "Baalooni fi Elektirikii Dhaabbataa"
             },
             "description": {
                 "en": "Grab a balloon to explore concepts of static electricity such as charge transfer, attraction, repulsion, and induced charge."
@@ -225,13 +267,18 @@
             "isNew": false,
             "latest": "1.5.26",
             "versions": {
-                "en": "1.5.26"
+                "en": "1.5.26",
+                "am": "1.5.26",
+                "om": "1.5.26"
             },
             "added": 1790369448
         },
         "beers-law-lab": {
             "title": {
-                "en": "Beer's Law Lab"
+                "en": "Beer's Law Lab",
+                "am": "የቢር ህግ",
+                "om": "Yaalii Seera Biirsii",
+                "ti": "Beer's Law Lab"
             },
             "description": {
                 "en": "“The thicker the glass, the darker the brew, the less the light that passes through.” Make colorful concentrated and dilute solutions and explore how much light they absorb and transmit using a virtual spectrophotometer!"
@@ -245,13 +292,16 @@
             "isNew": false,
             "latest": "1.8.7",
             "versions": {
-                "en": "1.8.7"
+                "en": "1.8.7",
+                "am": "1.8.7"
             },
             "added": 1790369448
         },
         "bending-light": {
             "title": {
-                "en": "Bending Light"
+                "en": "Bending Light",
+                "am": "የብርሀን መታጠፍ",
+                "om": "Dabee Darbuu Ifaa"
             },
             "description": {
                 "en": "Explore bending of light between two media with different indices of refraction. See how changing from air to water to glass changes the bending angle. Play with prisms of different shapes and make rainbows."
@@ -271,7 +321,9 @@
         },
         "blackbody-spectrum": {
             "title": {
-                "en": "Blackbody Spectrum"
+                "en": "Blackbody Spectrum",
+                "am": "ጥቁር አካል እስፔክትረም",
+                "om": "Ispeektarmii Qaama Gurraacha"
             },
             "description": {
                 "en": "How does the blackbody spectrum of the sun compare to visible light? Learn about the blackbody spectrum of Sirius A, the sun, a light bulb, and the earth. Adjust the temperature to see the wavelength and intensity of the spectrum change. View the color of the peak of the spectral curve."
@@ -295,7 +347,9 @@
         },
         "build-a-fraction": {
             "title": {
-                "en": "Build a Fraction"
+                "en": "Build a Fraction",
+                "am": "ክፍልፋይ  መመስረት ",
+                "om": "Firaakshinii Ijaaruu"
             },
             "description": {
                 "en": "Build fractions from shapes and numbers to earn stars in this fractions game or explore in the Fractions Lab. Challenge yourself on any level you like. Try to collect lots of stars!"
@@ -315,7 +369,9 @@
         },
         "build-a-molecule": {
             "title": {
-                "en": "Build a Molecule"
+                "en": "Build a Molecule",
+                "am": "ሞለክዩል መስራት",
+                "om": "Molekiila Ijaaruu"
             },
             "description": {
                 "en": "Starting from atoms, see how many molecules you can build. Collect your molecules and view them in 3D!"
@@ -335,7 +391,9 @@
         },
         "build-a-nucleus": {
             "title": {
-                "en": "Build a Nucleus"
+                "en": "Build a Nucleus",
+                "am": "ኒውክሊየስ ይገንቡ",
+                "om": "Niwukilasii Ijaaruu"
             },
             "description": {
                 "en": "How does changing the number of neutrons or protons affect the nuclear species, the stability of a nucleus, and its possible decay mechanisms?  Explore different species, and learn about the common decay paths! Visualize these through the chart of the nuclides and discover the inner energy levels of the nucleus."
@@ -355,7 +413,10 @@
         },
         "build-an-atom": {
             "title": {
-                "en": "Build an Atom"
+                "en": "Build an Atom",
+                "am": "አተም ይስሩ",
+                "om": "Atoomii Ijaaruu",
+                "ti": "ኣቶም ህነፅ"
             },
             "description": {
                 "en": "Build an atom out of protons, neutrons, and electrons, and see how the element, charge, and mass change. Then play a game to test your ideas!"
@@ -376,7 +437,9 @@
         },
         "buoyancy": {
             "title": {
-                "en": "Buoyancy"
+                "en": "Buoyancy",
+                "am": "ግፊተ ፈሳሸር",
+                "om": "Boyansii"
             },
             "description": {
                 "en": "When will objects float, and when will they sink? Learn how buoyancy works and the forces involved by experimenting with objects, like blocks, materials with different shapes, a bottle with substances inside, and blocks in a boat, in a pool with a fluid that can be modified."
@@ -396,7 +459,8 @@
         },
         "buoyancy-basics": {
             "title": {
-                "en": "Buoyancy: Basics"
+                "en": "Buoyancy: Basics",
+                "om": "Boyyaansii: Bu’uuraalee"
             },
             "description": {
                 "en": "When will objects float, and when will they sink? Learn how buoyancy works by experimenting with different blocks, modifying their volume and mass, and placing them in the pool with fluids of different densities.  Analyze the forces generated when the block is inside the pool, and identify the variables that affect the buoyant force."
@@ -416,7 +480,8 @@
         },
         "calculus-grapher": {
             "title": {
-                "en": "Calculus Grapher"
+                "en": "Calculus Grapher",
+                "om": "Giraafii kaalkulasii"
             },
             "description": {
                 "en": "Manipulate a graph of any function and see graphs of its integral, first derivative, and second derivative. Drag the tangent line along the curve, and accumulate area under the curve."
@@ -438,7 +503,9 @@
         },
         "capacitor-lab-basics": {
             "title": {
-                "en": "Capacitor Lab: Basics"
+                "en": "Capacitor Lab: Basics",
+                "am": "መሰረታዊ የእቃቤሌትሪክ ቤተ - ሙከራ",
+                "om": "Yaalii Kapaasitaraa: Bu’uuraalee"
             },
             "description": {
                 "en": "Explore how a capacitor works! Change the size of the plates and the distance between them. Change the voltage and see charges build up on the plates. View the electric field, and measure the voltage. Connect a charged capacitor to a light bulb and observe a discharging RC circuit."
@@ -458,7 +525,9 @@
         },
         "center-and-variability": {
             "title": {
-                "en": "Center and Variability"
+                "en": "Center and Variability",
+                "am": "መሃል እና ተለዋዋጭነት",
+                "om": "Giddugaleessaa fi Jijjiirama"
             },
             "description": {
                 "en": "Center and Variability allows students to explore and compare measures of center and variability, including mean, median, range, IQR, and MAD."
@@ -478,7 +547,9 @@
         },
         "charges-and-fields": {
             "title": {
-                "en": "Charges and Fields"
+                "en": "Charges and Fields",
+                "am": "ሙሎችና የኤሌክትሪክ መስኮች",
+                "om": "Chaarjotaa fi Dirree Elektiriikii"
             },
             "description": {
                 "en": "Arrange positive and negative charges in space and view the resulting electric field and electrostatic potential. Plot equipotential lines and discover their relationship to the electric field. Create models of dipoles, capacitors, and more!"
@@ -498,7 +569,9 @@
         },
         "circuit-construction-kit-ac": {
             "title": {
-                "en": "Circuit Construction Kit: AC"
+                "en": "Circuit Construction Kit: AC",
+                "am": "የእትበት አሰራር፡ ተለዋዋጭ የኤሌክትሪክ ዥረት",
+                "om": "Kiittii Ijaarsa Sarkiyuutii: AC"
             },
             "description": {
                 "en": "Experiment with an electronics kit! Build circuits with batteries, resistors, ideal and non-Ohmic light bulbs, fuses, and switches. Build circuits with AC voltage sources, batteries, resistors, capacitors, inductors, fuses, and switches. Take measurements with a lifelike ammeter and voltmeter and graph the current and voltage as a function of time. View the circuit as a schematic diagram or switch to a lifelike view."
@@ -518,7 +591,9 @@
         },
         "circuit-construction-kit-ac-virtual-lab": {
             "title": {
-                "en": "Circuit Construction Kit: AC - Virtual Lab"
+                "en": "Circuit Construction Kit: AC - Virtual Lab",
+                "am": "የእትበት አሰራር፡ ተለዋዋጭ ዥረት ኢ-ገሃዳዊ ቤተ-ሙከራ",
+                "om": "Kiitii Ijaarsa Serkiitii: AC - Yaalii Abjata"
             },
             "description": {
                 "en": "Do you like Circuit Construction Kit: AC, but want to use only in-line ammeters? This is the sim for you! Experiment with an electronics kit. Build circuits with AC voltage sources, batteries, resistors, capacitors, inductors, fuses, and switches. Take measurements with a lifelike ammeter and voltmeter and graph the current and voltage as a function of time. View the circuit as a schematic diagram or switch to a lifelike view."
@@ -538,7 +613,9 @@
         },
         "circuit-construction-kit-dc": {
             "title": {
-                "en": "Circuit Construction Kit: DC"
+                "en": "Circuit Construction Kit: DC",
+                "am": "የኤሌክትሪክ እትበት ",
+                "om": "Kiitii Ijaarsa Serkiitii: DC"
             },
             "description": {
                 "en": "Experiment with an electronics kit! Build circuits with batteries, resistors, ideal and non-Ohmic light bulbs, fuses, and switches. Determine if everyday objects are conductors or insulators, and take measurements with an ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a lifelike view."
@@ -558,7 +635,9 @@
         },
         "circuit-construction-kit-dc-virtual-lab": {
             "title": {
-                "en": "Circuit Construction Kit: DC - Virtual Lab"
+                "en": "Circuit Construction Kit: DC - Virtual Lab",
+                "am": "የእትበት አሰራር፡ቀጥተኛ ዥረት ኢ-ገሃዳዊ ቤተሙከራ",
+                "om": "Kiitii Ijaarsa Serkiitii: DC - Yaalii Abjata"
             },
             "description": {
                 "en": "Do you like Circuit Construction Kit: DC, but want to use only in-line ammeters? This is the sim for you! Experiment with an electronics kit. Build circuits with batteries, resistors, ideal and non-Ohmic light bulbs, fuses, and switches. Determine if everyday objects are conductors or insulators, and take measurements with a lifelike ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a lifelike view."
@@ -578,7 +657,9 @@
         },
         "collision-lab": {
             "title": {
-                "en": "Collision Lab"
+                "en": "Collision Lab",
+                "am": "የግጭት ቤተ - ሙከራ",
+                "om": " Yaalii Kiphiinsaa (Walitti Bu'iinsaa)"
             },
             "description": {
                 "en": "Investigate simple collisions in 1D and more complex collisions in 2D. Experiment with the number of balls, masses, and initial conditions. Vary the elasticity and see how the total momentum and kinetic energy change during collisions."
@@ -598,7 +679,9 @@
         },
         "color-vision": {
             "title": {
-                "en": "Color Vision"
+                "en": "Color Vision",
+                "am": "የእይታ ቀለም",
+                "om": "Mul'ata Halluu"
             },
             "description": {
                 "en": "Make a whole rainbow by mixing red, green, and blue light. Change the wavelength of a monochromatic beam or filter white light. View the light as a solid beam, or see the individual photons."
@@ -619,7 +702,10 @@
         },
         "concentration": {
             "title": {
-                "en": "Concentration"
+                "en": "Concentration",
+                "am": "ክምችት",
+                "om": "Cunqina",
+                "ti": "ፅዕቐት"
             },
             "description": {
                 "en": "Watch your solution change color as you mix chemicals with water. Then check molarity with the concentration meter. What are all the ways you can change the concentration of your solution? Switch solutes to compare different chemicals and find out how concentrated you can go before you hit saturation!"
@@ -639,7 +725,9 @@
         },
         "coulombs-law": {
             "title": {
-                "en": "Coulomb's Law"
+                "en": "Coulomb's Law",
+                "am": "የኮሎምብ ህግ",
+                "om": "Seera Kolombii"
             },
             "description": {
                 "en": "Visualize the electrostatic force that two charges exert on each other. Observe how changing the sign and magnitude of the charges and the distance between them affects the electrostatic force."
@@ -661,7 +749,9 @@
         },
         "curve-fitting": {
             "title": {
-                "en": "Curve Fitting"
+                "en": "Curve Fitting",
+                "am": "ከርቭ ፊቲንግ",
+                "om": "Waltaasisa  Qonyoo "
             },
             "description": {
                 "en": "Drag data points and their error bars and watch the best-fit polynomial curve update instantly. You choose the type of fit: linear, quadratic, or cubic. The reduced chi-square statistic shows you when the fit is good. Or you can try to find the best fit by manually adjusting fit parameters."
@@ -682,7 +772,9 @@
         },
         "density": {
             "title": {
-                "en": "Density"
+                "en": "Density",
+                "am": "እፍጋት",
+                "om": "Rukkina"
             },
             "description": {
                 "en": "Why do some materials like wood float in water, and others don’t? Interact with blocks of different materials, including a custom option by modifying their mass and volume, to explore the effect on the density and discover the conditions for sinking or floating in water. Play detective to determine the material of each block by comparing its density with the values in the table."
@@ -705,7 +797,9 @@
         },
         "diffusion": {
             "title": {
-                "en": "Diffusion"
+                "en": "Diffusion",
+                "am": "ስርጭት",
+                "om": "Faca’iinsa"
             },
             "description": {
                 "en": "Mix two gases to explore diffusion! Experiment with concentration, temperature, mass, and radius and determine how these factors affect the rate of diffusion."
@@ -728,7 +822,9 @@
         },
         "energy-forms-and-changes": {
             "title": {
-                "en": "Energy Forms and Changes"
+                "en": "Energy Forms and Changes",
+                "am": "የጉልበት አይነቶችና ለውጦች",
+                "om": "Akaakuwwan annisaa fi jijjirama"
             },
             "description": {
                 "en": "Explore how heating and cooling iron, brick, water, and olive oil adds or removes energy. See how energy is transferred between objects. Build your own system, with energy sources, changers, and users. Track and visualize how energy flows and changes through your system."
@@ -751,7 +847,9 @@
         },
         "energy-skate-park": {
             "title": {
-                "en": "Energy Skate Park"
+                "en": "Energy Skate Park",
+                "am": "የጉልበት መንሸራተቻ ፓርክ ",
+                "om": "Anniisaa Caayaa Sigigaachistuu "
             },
             "description": {
                 "en": "Learn about the conservation of energy at the skate park! Build tracks, ramps, and jumps for the skater. View the skater's kinetic energy, potential energy, and thermal energy as they move along the track. Measure the speed and adjust the friction, gravity, and mass."
@@ -772,7 +870,9 @@
         },
         "energy-skate-park-basics": {
             "title": {
-                "en": "Energy Skate Park: Basics"
+                "en": "Energy Skate Park: Basics",
+                "am": "የጉልበት መንሸራተቻ ፓርክ፡ መሰረታዊ ነገሮች ",
+                "om": "Paarkii Iskeetii Annisaa: Bu’uuraalee"
             },
             "description": {
                 "en": "Learn about conservation of energy with a skater gal! Explore different tracks and view the kinetic energy, potential energy and friction as she moves. Build your own tracks, ramps, and jumps for the skater."
@@ -793,7 +893,9 @@
         },
         "equality-explorer": {
             "title": {
-                "en": "Equality Explorer"
+                "en": "Equality Explorer",
+                "am": "እኩሌታ አሳሽ ",
+                "om": "Wal-Qixxummaa Qorataa"
             },
             "description": {
                 "en": "Explore what it means for a mathematical statement to be balanced or unbalanced by interacting with objects on a balance. Discover the rules for keeping it balanced. Collect stars by playing the game!"
@@ -813,7 +915,9 @@
         },
         "equality-explorer-basics": {
             "title": {
-                "en": "Equality Explorer: Basics"
+                "en": "Equality Explorer: Basics",
+                "am": "የእኩልነት አሳሽ፡ መሠረታዊ ነገሮች",
+                "om": "Alooli Wal-Qixxummaa: Bu'uurota"
             },
             "description": {
                 "en": "Explore what it means for a mathematical statement to be balanced or unbalanced by interacting with objects on a balance. Find all the ways to balance cats and dogs or apples and oranges."
@@ -833,7 +937,9 @@
         },
         "equality-explorer-two-variables": {
             "title": {
-                "en": "Equality Explorer: Two Variables"
+                "en": "Equality Explorer: Two Variables",
+                "am": "የእኩልነት አሳሽ፡ ሁለት ተለዋዋጮች",
+                "om": "Alooli Wal-Qixxummaa: Jijjiiramoota Lama"
             },
             "description": {
                 "en": "Explore what it means for a mathematical statement to be balanced or unbalanced by interacting with integers and variables on a balance. Find multiple ways to balance x and y to build a system of equations."
@@ -853,7 +959,9 @@
         },
         "expression-exchange": {
             "title": {
-                "en": "Expression Exchange"
+                "en": "Expression Exchange",
+                "am": "አልጄብራዊ መግለጫዎች መቀያየሪያ ",
+                "om": "Jijjiirraa Ibsaa"
             },
             "description": {
                 "en": "Build coin expressions, then exchange them for variable expressions. Simplify and evaluate expressions until you are ready to test your understanding of equivalent expressions in the game!"
@@ -873,7 +981,9 @@
         },
         "faradays-electromagnetic-lab": {
             "title": {
-                "en": "Faraday's Electromagnetic Lab"
+                "en": "Faraday's Electromagnetic Lab",
+                "am": "Faraday's Electromagnetic Lab",
+                "om": "Faraday's Electromagnetic Lab"
             },
             "description": {
                 "en": "Experiment with magnets and coils to learn about Faraday's Law. Measure the direction and magnitude of the magnetic field. Induce a current through the pickup coil to light a bulb and vary magnetic strength, number of loops, and loop area. Explore applications of Faraday’s Law with electromagnets, transformers, and generators."
@@ -894,7 +1004,9 @@
         },
         "faradays-law": {
             "title": {
-                "en": "Faraday's Law"
+                "en": "Faraday's Law",
+                "am": "የፋራዳይ ህግ",
+                "om": "Seera Faraday"
             },
             "description": {
                 "en": "Investigate Faraday's law and how a changing magnetic flux can produce a flow of electricity!"
@@ -914,7 +1026,10 @@
         },
         "forces-and-motion-basics": {
             "title": {
-                "en": "Forces and Motion: Basics"
+                "en": "Forces and Motion: Basics",
+                "am": "መሰረታዊ ሀይልና እንቅስቃሴ",
+                "om": "Humnoota fi Sochii: Bu'urota",
+                "ti": "ሓይልን ሕግታት ቅስቃሰ ኒውተንን ፡ መሰርታዊ"
             },
             "description": {
                 "en": "Explore the forces at work when pulling against a cart, and pushing a refrigerator, crate, or person. Create an applied force and see how it makes objects move. Change friction and see how it affects the motion of objects."
@@ -934,7 +1049,9 @@
         },
         "fourier-making-waves": {
             "title": {
-                "en": "Fourier: Making Waves"
+                "en": "Fourier: Making Waves",
+                "am": "ፉርየር፡ ሞገዶችን መስራት",
+                "om": "Fuuriyeeri: Dambalii Hojjechuu"
             },
             "description": {
                 "en": "Add up sines or cosines to make waves of different shapes. Discover how changing the amplitudes of different harmonics changes the sound you hear. Play the Wave Game and combine harmonics to match a target waveform. Construct wave packets and explore the effects of changing the spacing between Fourier components and wave packet width."
@@ -960,7 +1077,9 @@
         },
         "fraction-matcher": {
             "title": {
-                "en": "Fraction Matcher"
+                "en": "Fraction Matcher",
+                "am": "ክፍልፋይ አዛማጅ",
+                "om": "Wal-Simsiisaa Firaakshinii"
             },
             "description": {
                 "en": "Match shapes and numbers to earn stars in this fractions game. Challenge yourself on any level you like. Try to collect lots of stars!"
@@ -980,7 +1099,9 @@
         },
         "fractions-equality": {
             "title": {
-                "en": "Fractions: Equality"
+                "en": "Fractions: Equality",
+                "am": "ክፍልፋዮች፡እኩልታ",
+                "om": "Firaakshinoota: Wal-Qixxummaa"
             },
             "description": {
                 "en": "Build equivalent fractions with different denominators. Match shapes and numbers to earn stars in the game. Challenge yourself on any level you like. Try to collect lots of stars!"
@@ -1000,7 +1121,9 @@
         },
         "fractions-intro": {
             "title": {
-                "en": "Fractions: Intro"
+                "en": "Fractions: Intro",
+                "am": "ክፍልፋዮች፡መግቢያ",
+                "om": "Firaakshinoota: Seensa"
             },
             "description": {
                 "en": "Explore fractions while you help yourself to 1/3 of a chocolate cake and wash it down with 1/2 a glass of water! Create your own fractions using fun interactive objects. Match shapes and numbers to earn stars in the fractions game. Challenge yourself on any level you like. Try to collect lots of stars!"
@@ -1020,7 +1143,9 @@
         },
         "fractions-mixed-numbers": {
             "title": {
-                "en": "Fractions: Mixed Numbers"
+                "en": "Fractions: Mixed Numbers",
+                "am": "ክፍልፋዮች፡ ቅይጥ ቁጥሮች",
+                "om": "Firaakshinoota: Lakkoofsota Makaa"
             },
             "description": {
                 "en": "Explore fractions while you help yourself to 1 and 1/2 chocolate cakes and wash it down with 1/3 a glass of water! Create your own fractions using fun interactive objects. Match shapes and numbers to earn stars in the mixed number game. Challenge yourself on any level you like. Try to collect lots of stars!"
@@ -1040,7 +1165,9 @@
         },
         "friction": {
             "title": {
-                "en": "Friction"
+                "en": "Friction",
+                "am": "ሰበቃ",
+                "om": "Rigata"
             },
             "description": {
                 "en": "Move the Chemistry book and observe what happens."
@@ -1061,7 +1188,9 @@
         },
         "function-builder": {
             "title": {
-                "en": "Function Builder"
+                "en": "Function Builder",
+                "am": "ፈንክሽን ገንቢ",
+                "om": "Ijaarsa Faankishinii"
             },
             "description": {
                 "en": "Play with functions while you ponder Art History. Explore geometric transformations and transform your thinking about linear functions, then have fun figuring out the mystery functions!"
@@ -1081,7 +1210,9 @@
         },
         "function-builder-basics": {
             "title": {
-                "en": "Function Builder: Basics"
+                "en": "Function Builder: Basics",
+                "am": "ተግባር ገንቢ፡መሰረታዊ",
+                "om": "Ijaarsa Faankishinii: Bu'uurota"
             },
             "description": {
                 "en": "Play with functions while you ponder Art History. Look for patterns, then apply what you learned on the Mystery screen!"
@@ -1101,7 +1232,9 @@
         },
         "gas-properties": {
             "title": {
-                "en": "Gas Properties"
+                "en": "Gas Properties",
+                "am": "የጋስ ባህርያት",
+                "om": "Amaloota Gaasii"
             },
             "description": {
                 "en": "Pump gas molecules to a box and see what happens as you change the volume, add or remove heat, and more. Measure the temperature and pressure, and discover how the properties of the gas vary in relation to each other. Examine kinetic energy and speed histograms for light and heavy particles. Explore diffusion and determine how concentration, temperature, mass, and radius affect the rate of diffusion."
@@ -1125,7 +1258,9 @@
         },
         "gases-intro": {
             "title": {
-                "en": "Gases Intro"
+                "en": "Gases Intro",
+                "am": "የጋዞች ማስታወቂያ",
+                "om": "Gaasii seensa"
             },
             "description": {
                 "en": "Pump gas molecules to a box and see what happens as you change the volume, add or remove heat, and more. Measure the temperature and pressure, and discover how the properties of the gas vary in relation to each other."
@@ -1148,7 +1283,9 @@
         },
         "gene-expression-essentials": {
             "title": {
-                "en": "Gene Expression Essentials"
+                "en": "Gene Expression Essentials",
+                "am": "የጂን አገላለጽ አስፈላጊ ነገሮች",
+                "om": "Barbaachisoo Ibsa Jiinii"
             },
             "description": {
                 "en": "Express yourself through your genes! See if you can generate and collect three types of protein, then move on to explore the factors that affect protein synthesis in a cell."
@@ -1167,7 +1304,9 @@
         },
         "generator": {
             "title": {
-                "en": "Generator"
+                "en": "Generator",
+                "am": "ጀነሬተር",
+                "om": "Jenereetariii"
             },
             "description": {
                 "en": "Generate electricity with a spinning bar magnet. Explore the underlying physics of a generator and discover how to maximize the brightness of a light bulb."
@@ -1188,7 +1327,9 @@
         },
         "geometric-optics": {
             "title": {
-                "en": "Geometric Optics"
+                "en": "Geometric Optics",
+                "am": "ጂኦሜትሪክ ኦፕቲክስ",
+                "om": "Optiksii Ji'oomeetirii"
             },
             "description": {
                 "en": "How does a lens or mirror form an image? See how light rays are refracted by a lens or reflected by a mirror. Observe how the image changes when you adjust the focal length of the lens, move the object, or move the screen."
@@ -1208,7 +1349,8 @@
         },
         "geometric-optics-basics": {
             "title": {
-                "en": "Geometric Optics: Basics"
+                "en": "Geometric Optics: Basics",
+                "om": "Ji'oomeetirii Optiksii: Bu'uurotaa"
             },
             "description": {
                 "en": "How does a lens or mirror form an image? See how light rays are refracted by a lens or reflected by a mirror. Observe how the image changes when you adjust the focal length, move the object, or move the screen."
@@ -1228,7 +1370,9 @@
         },
         "graphing-lines": {
             "title": {
-                "en": "Graphing Lines"
+                "en": "Graphing Lines",
+                "am": "የግራፍ መስመሮች",
+                "om": "Caatoo Sararoota"
             },
             "description": {
                 "en": "Explore the world of lines. Investigate the relationships between linear equations, slope, and graphs of lines. Challenge yourself in the line game!"
@@ -1248,7 +1392,9 @@
         },
         "graphing-quadratics": {
             "title": {
-                "en": "Graphing Quadratics"
+                "en": "Graphing Quadratics",
+                "am": "ኳድራቲኮችን መሳል ",
+                "om": "Caatoo Kuwaadraatiksii"
             },
             "description": {
                 "en": "Discover how changing coefficients changes the shape of a curve. View the graphs of individual terms (e.g. y=bx) to see how they add to generate the polynomial curve. Generate definitions for vertex, roots, and axis of symmetry. Compare different forms of a quadratic function. Define a curve by its focus and directrix."
@@ -1268,7 +1414,9 @@
         },
         "graphing-slope-intercept": {
             "title": {
-                "en": "Graphing Slope-Intercept"
+                "en": "Graphing Slope-Intercept",
+                "am": "ስሎፕ/ተዳፋት- አቋራጭ ",
+                "om": "Caatoo Interseptii Shaffaxa"
             },
             "description": {
                 "en": "Explore slope-intercept form of a line. Connect the slope and y-intercept to the equation of the line. Challenge yourself in the line game!"
@@ -1288,7 +1436,9 @@
         },
         "gravity-and-orbits": {
             "title": {
-                "en": "Gravity and Orbits"
+                "en": "Gravity and Orbits",
+                "am": "ስበት እና ምህዋር",
+                "om": "Guula Harkisa fi Orbitii ."
             },
             "description": {
                 "en": "Move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies, and turn off gravity to see what would happen without it!"
@@ -1309,7 +1459,9 @@
         },
         "gravity-force-lab": {
             "title": {
-                "en": "Gravity Force Lab"
+                "en": "Gravity Force Lab",
+                "am": "የስበት ሃይል ቤተ-ሙከራ",
+                "om": "Yaalii Humna Harkisaa"
             },
             "description": {
                 "en": "Visualize the gravitational force that two objects exert on each other. Adjust properties of the objects to see how changing the properties affects the gravitational attraction."
@@ -1330,7 +1482,9 @@
         },
         "gravity-force-lab-basics": {
             "title": {
-                "en": "Gravity Force Lab: Basics"
+                "en": "Gravity Force Lab: Basics",
+                "am": "የስበት ሀይል ቤተ-ሙከራ፡ መሰረታዊ ነገሮች",
+                "om": "Yaalii Humna Harkisaa: Bu’uuraalee"
             },
             "description": {
                 "en": "Visualize the gravitational force that two objects exert on each other. Discover the factors that affect gravitational attraction, and determine how adjusting these factors will change the gravitational force."
@@ -1351,7 +1505,10 @@
         },
         "greenhouse-effect": {
             "title": {
-                "en": "Greenhouse Effect"
+                "en": "Greenhouse Effect",
+                "am": "የከባቢ አየር ችግር",
+                "om": "Bu'aa Giriin Haawusii",
+                "ti": "ሳዕቤን ጋዝ ሓምለዋይ ገዛ"
             },
             "description": {
                 "en": "How do greenhouse gases affect the climate? Explore the atmosphere during the ice age and today. What happens when you add clouds? Change the greenhouse gas concentration and see how the temperature changes."
@@ -1370,7 +1527,10 @@
         },
         "hookes-law": {
             "title": {
-                "en": "Hooke's Law"
+                "en": "Hooke's Law",
+                "am": "የሁክ ህግ",
+                "om": "Seera Huuki",
+                "ti": "ሕጊ ሁኩስ"
             },
             "description": {
                 "en": "Stretch and compress springs to explore the relationships between force, spring constant, displacement, and potential energy! Investigate what happens when two springs are connected in series and parallel."
@@ -1391,7 +1551,9 @@
         },
         "isotopes-and-atomic-mass": {
             "title": {
-                "en": "Isotopes and Atomic Mass"
+                "en": "Isotopes and Atomic Mass",
+                "am": "አይሶቶፖች እና የአቶሚክ ክብደት",
+                "om": "Isotooppotaa fi Hanga Atoomawaa"
             },
             "description": {
                 "en": "Are all atoms of an element the same? How can you tell one isotope from another? Use the sim to learn about isotopes and how abundance relates to the average atomic mass of an element."
@@ -1411,7 +1573,9 @@
         },
         "john-travoltage": {
             "title": {
-                "en": "John Travoltage"
+                "en": "John Travoltage",
+                "am": "ጆን ትራቮልቴጅ",
+                "om": "Joon Tiraavoolteejii"
             },
             "description": {
                 "en": "Play with John’s foot and arm to explore when he gets a shock!"
@@ -1431,7 +1595,8 @@
         },
         "keplers-laws": {
             "title": {
-                "en": "Kepler's Laws"
+                "en": "Kepler's Laws",
+                "om": "Seerota Keepilarii"
             },
             "description": {
                 "en": "Interact with the variables to discover how planetary objects moves in elliptical orbits, and the other characteristics of these orbits described by the three Kepler’s Laws. Connect Astronomy with Math, by experimenting with ellipses, areas, and graphs."
@@ -1454,7 +1619,9 @@
         },
         "least-squares-regression": {
             "title": {
-                "en": "Least-Squares Regression"
+                "en": "Least-Squares Regression",
+                "am": "ትንሹ-ካሬዎች መመለሻ",
+                "om": "Duubatti Deebi'uu Iskuweerota Xiqqaa (Deebi'uu iskuweer-xiqqaa)"
             },
             "description": {
                 "en": "Create your own scatter plot or use real-world data and try to fit a line to it! Explore how individual data points affect the correlation coefficient and best-fit line."
@@ -1474,7 +1641,8 @@
         },
         "magnet-and-compass": {
             "title": {
-                "en": "Magnet and Compass"
+                "en": "Magnet and Compass",
+                "om": "Maagneetii fi Koompaasii"
             },
             "description": {
                 "en": "Explore the interactions between a compass and bar magnet. Relate the Earth’s magnetic field to a bar magnet. Vary the magnet's strength, and see how things change both inside and outside. Measure the direction and magnitude of the magnetic field."
@@ -1495,7 +1663,8 @@
         },
         "magnets-and-electromagnets": {
             "title": {
-                "en": "Magnets and Electromagnets"
+                "en": "Magnets and Electromagnets",
+                "om": "Maagneetotaa fi Elektiroomaagneetii"
             },
             "description": {
                 "en": "Explore the interactions between a compass and bar magnet. Discover how you can use a battery and coil to make an electromagnet. Explore the ways to change the magnetic field, and measure its direction and magnitude around the magnet."
@@ -1515,7 +1684,9 @@
         },
         "make-a-ten": {
             "title": {
-                "en": "Make a Ten"
+                "en": "Make a Ten",
+                "am": "አስር አድርግ/ጊ ",
+                "om": "Kudhan tokko tolchi"
             },
             "description": {
                 "en": "Add numbers by making tens. Break apart and combine numbers while focusing on place value. Use the adding screen to add any two numbers. Use the game screen to apply your make-a-ten strategies!"
@@ -1535,7 +1706,9 @@
         },
         "masses-and-springs": {
             "title": {
-                "en": "Masses and Springs"
+                "en": "Masses and Springs",
+                "am": "መጠነ-ቁስ አካላት እና ነጣሪ ሽቦዎች",
+                "om": "Hangaawwaani fi cedhedhalee"
             },
             "description": {
                 "en": "Hang masses from springs and adjust the spring constant and damping. Transport the lab to different planets, or slow down time. Observe the forces and energy in the system in real-time, and measure the period using the stopwatch."
@@ -1558,7 +1731,9 @@
         },
         "masses-and-springs-basics": {
             "title": {
-                "en": "Masses and Springs: Basics"
+                "en": "Masses and Springs: Basics",
+                "am": "መጠነ-ቁስ አካላትና ነጣሪ ሽቦዎች፡መሰረታዊ ነገሮች",
+                "om": "Hangaaf Cedhedha: Bu’uuraalee"
             },
             "description": {
                 "en": "Hang masses from springs and discover how they stretch and oscillate. Compare two mass-spring systems, and experiment with spring constant. Transport the lab to different planets, slow down time, and observe the velocity and acceleration throughout the oscillation."
@@ -1578,7 +1753,9 @@
         },
         "mean-share-and-balance": {
             "title": {
-                "en": "Mean: Share and Balance"
+                "en": "Mean: Share and Balance",
+                "am": "አማካኝ፡ ሚዛናዊ እና ማካፈል ",
+                "om": "Giddugaleessa: Qoodaa fi Madaallii"
             },
             "description": {
                 "en": "Explore the mean by leveling cups of water, distributing candy bars, fairly sharing apples, and finding the balance point of a beam. Build a data set with a target mean. Challenge yourself to predict the mean before revealing it."
@@ -1643,7 +1820,9 @@
         },
         "molarity": {
             "title": {
-                "en": "Molarity"
+                "en": "Molarity",
+                "am": "ሞላሪቲ",
+                "om": "Moolaariitii"
             },
             "description": {
                 "en": "What determines the concentration of a solution? Learn about the relationships between moles, liters, and molarity by adjusting the amount of solute and solution volume. Change solutes to compare different chemical compounds in water."
@@ -1663,7 +1842,9 @@
         },
         "molecule-polarity": {
             "title": {
-                "en": "Molecule Polarity"
+                "en": "Molecule Polarity",
+                "am": "ሞለኪውል ፖላሪቲ",
+                "om": "Poolaariitii Molakiyuulaa"
             },
             "description": {
                 "en": "When is a molecule polar? Change the electronegativity of atoms in a molecule to see how it affects polarity. See how the molecule behaves in an electric field. Change the bond angle to see how shape affects polarity."
@@ -1684,7 +1865,9 @@
         },
         "molecule-shapes": {
             "title": {
-                "en": "Molecule Shapes"
+                "en": "Molecule Shapes",
+                "am": "የሞለክዩል ቅርፆች",
+                "om": "Boca Molakiyuulaa"
             },
             "description": {
                 "en": "Explore molecule shapes by building molecules in 3D! How does molecule shape change with different numbers of bonds and electron pairs? Find out by adding single, double or triple bonds and lone pairs to the central atom. Then, compare the model to real molecules!"
@@ -1704,7 +1887,9 @@
         },
         "molecule-shapes-basics": {
             "title": {
-                "en": "Molecule Shapes: Basics"
+                "en": "Molecule Shapes: Basics",
+                "am": "የሞለክዩል ቅርፆች፡ መሰረታዊ ነገሮች",
+                "om": "Boca Molakiyuulotaa: Bu’uuraalee"
             },
             "description": {
                 "en": "Explore molecule shapes by building molecules in 3D! Find out how a molecule's shape changes as you add atoms to a molecule."
@@ -1724,7 +1909,9 @@
         },
         "molecules-and-light": {
             "title": {
-                "en": "Molecules and Light"
+                "en": "Molecules and Light",
+                "am": "ሞለኪውሎች እና ብርሃን",
+                "om": "Molekulootaa fi Ifa"
             },
             "description": {
                 "en": "Turn light source on to explore. Observe what happens in the observation window as you set up different combinations of light source and molecule. Note this simulation is the first to support our pan and zoom feature, so zoom in for a closer look, if you need to."
@@ -1747,7 +1934,8 @@
         },
         "my-solar-system": {
             "title": {
-                "en": "My Solar System"
+                "en": "My Solar System",
+                "am": "የእኔ የፀሐይ ስርዓት"
             },
             "description": {
                 "en": "Build your own system of heavenly bodies and watch the gravitational ballet. With this orbit simulator, you can set initial positions, velocities, and masses of 2, 3, or 4 bodies, and then see them orbit each other."
@@ -1768,7 +1956,9 @@
         },
         "natural-selection": {
             "title": {
-                "en": "Natural Selection"
+                "en": "Natural Selection",
+                "am": "የተፈጥሮ ምርጫ",
+                "om": "Filannoo Uumamaa"
             },
             "description": {
                 "en": "Explore how organisms with different traits survive various selection agents within the environment."
@@ -1787,7 +1977,9 @@
         },
         "neuron": {
             "title": {
-                "en": "Neuron"
+                "en": "Neuron",
+                "am": "ኒውሮን",
+                "om": "Niwuroonii "
             },
             "description": {
                 "en": "Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in time in order to observe the ions as they move across the neuron membrane."
@@ -1806,7 +1998,9 @@
         },
         "number-compare": {
             "title": {
-                "en": "Number Compare"
+                "en": "Number Compare",
+                "am": "ቁጥር ማወዳደር",
+                "om": "Lakkoofsa Walbira Qabsiisuu"
             },
             "description": {
                 "en": "Compare numbers represented as numerals, objects, groups, and ten frames. Use a sentence, number line, or stacked units to determine the larger group. Hear the comparison spoken aloud in two different languages."
@@ -1826,7 +2020,9 @@
         },
         "number-line-distance": {
             "title": {
-                "en": "Number Line: Distance"
+                "en": "Number Line: Distance",
+                "am": "የቁጥር መስመር፡ ርቀት",
+                "om": "Sarara Lakkoofsaa: Fageenya"
             },
             "description": {
                 "en": "Subtraction is more than an operation- it is also the distance between two numbers! Explore the distance between a person and house, a bird and a fish, and the difference in temperature between two locations. Compare absolute distance and directed distance, and strengthen your number line muscles."
@@ -1846,7 +2042,9 @@
         },
         "number-line-integers": {
             "title": {
-                "en": "Number Line: Integers"
+                "en": "Number Line: Integers",
+                "am": "የቁጥር መስመር፡ኢንቲጀሮች",
+                "om": "Sarara Lakkoofsaa: Lakkoofsota guutuu"
             },
             "description": {
                 "en": "What do elevation, account balances, and temperature have in common? They can all be represented on a number line. Compare integers on a number line and in an inequality statement. Discover the meaning of absolute value."
@@ -1866,7 +2064,9 @@
         },
         "number-line-operations": {
             "title": {
-                "en": "Number Line: Operations"
+                "en": "Number Line: Operations",
+                "am": "የቁጥር መስመር፡ስሌቶች",
+                "om": "Sarara Lakkoofsaa: Shallagiwwan"
             },
             "description": {
                 "en": "Explore operations with integers using an authentic context of net worth, then generalize with a number line. Experiment with adding and subtracting both positives and negatives, and make predictions about whether the total will be positive or negative."
@@ -1906,7 +2106,9 @@
         },
         "number-play": {
             "title": {
-                "en": "Number Play"
+                "en": "Number Play",
+                "am": "የቁጥር ጨዋታ",
+                "om": "Tapha Lakkoofsaa"
             },
             "description": {
                 "en": "Play with counting and cardinality. Compare representations, including word, numeral, ten frame, and objects. Hear the number spoken aloud in two different languages. Challenge yourself to subitize numbers up to ten!"
@@ -1926,7 +2128,8 @@
         },
         "ohms-law": {
             "title": {
-                "en": "Ohm's Law"
+                "en": "Ohm's Law",
+                "om": "Seera Ohm"
             },
             "description": {
                 "en": "See how the equation form of Ohm's law relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm's law."
@@ -1948,7 +2151,9 @@
         },
         "pendulum-lab": {
             "title": {
-                "en": "Pendulum Lab"
+                "en": "Pendulum Lab",
+                "am": "የዥዋዥዌ ቤተ-ሙከራ ",
+                "om": "Yaalii Peenduulamii"
             },
             "description": {
                 "en": "Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, the strength of gravity, and the amplitude of the swing. Observe the energy in the system in real-time, and vary the amount of friction. Measure the period using the stopwatch or period timer. Use the pendulum to find the value of g on Planet X. Notice the anharmonic behavior at large amplitude."
@@ -1971,7 +2176,10 @@
         },
         "ph-scale": {
             "title": {
-                "en": "pH Scale"
+                "en": "pH Scale",
+                "am": "ፒኤች መለኪያ",
+                "om": "Safartuu pH",
+                "ti": "pH Scale"
             },
             "description": {
                 "en": "Test the pH of things like coffee, spit, and soap to determine whether each is acidic, basic, or neutral. Visualize the relative number of hydroxide ions and hydronium ions in solution. Switch between logarithmic and linear scales. Investigate whether changing the volume or diluting with water affects the pH. Or you can design your own liquid!"
@@ -1993,7 +2201,10 @@
         },
         "ph-scale-basics": {
             "title": {
-                "en": "pH Scale: Basics"
+                "en": "pH Scale: Basics",
+                "am": "pH ልኬት፡መሰረታዊ ነገሮች ",
+                "om": "Safartuu pH : Bu'uuraa",
+                "ti": "ፒ. ኤች መጠን: መሰራታዊ"
             },
             "description": {
                 "en": "Test the pH of everyday liquids such as coffee, spit, and soap to determine whether each is acidic, basic, or neutral. Investigate how adding more of a liquid or diluting with water affects pH."
@@ -2013,7 +2224,9 @@
         },
         "plinko-probability": {
             "title": {
-                "en": "Plinko Probability"
+                "en": "Plinko Probability",
+                "am": "የፕሊንኮ ግመታ",
+                "om": "Carraa Piilinkoo"
             },
             "description": {
                 "en": "Drop balls through a triangular grid of pegs and see them accumulate in containers. Switch to a histogram view and compare the distribution of balls to an ideal binomial distribution. Adjust the binary probability and develop your knowledge of statistics!"
@@ -2057,7 +2270,9 @@
         },
         "projectile-motion": {
             "title": {
-                "en": "Projectile Motion"
+                "en": "Projectile Motion",
+                "am": "የተተኳሽ እንቅስቃሴ",
+                "om": "Sochii Darboo Pirojektaayilii"
             },
             "description": {
                 "en": "Blast a car out of a cannon, and challenge yourself to hit a target! Learn about projectile motion by firing various objects. Set parameters such as angle, initial speed, and mass. Explore vector representations, and add air resistance to investigate the factors that influence drag."
@@ -2099,7 +2314,9 @@
         },
         "proportion-playground": {
             "title": {
-                "en": "Proportion Playground"
+                "en": "Proportion Playground",
+                "am": "የምጥጥኖሽ መጫወቻ ሜዳ",
+                "om": "Dirree Tapha Pirooppoorshinii"
             },
             "description": {
                 "en": "Play with ratios and proportions by designing a necklace, throwing paint balloons, playing billiards, or shopping for apples! Make predictions about proportions before they are revealed."
@@ -2119,7 +2336,8 @@
         },
         "quadrilateral": {
             "title": {
-                "en": "Quadrilateral"
+                "en": "Quadrilateral",
+                "am": "አራት ማዕዘን"
             },
             "description": {
                 "en": "Explore the properties of and relationships between named four-sided shapes by moving sides and corners of a quadrilateral."
@@ -2205,7 +2423,9 @@
         },
         "ratio-and-proportion": {
             "title": {
-                "en": "Ratio and Proportion"
+                "en": "Ratio and Proportion",
+                "am": "ክፍልፋይና እና ተመጣጣኝነት",
+                "om": "Reeshiyoo fi Pirooppoorshinii"
             },
             "description": {
                 "en": "Play with the left and right hands in different ways, and explore ratio and proportion. Start on the Discover screen to find each challenge ratio by moving the hands. Then, on the Create screen, set your own challenge ratios. Once you've found a challenge ratio, try to move both hands while maintaining the challenge ratio through proportional reasoning."
@@ -2225,7 +2445,9 @@
         },
         "reactants-products-and-leftovers": {
             "title": {
-                "en": "Reactants, Products and Leftovers"
+                "en": "Reactants, Products and Leftovers",
+                "am": "ተፀግባሪዎች, ዉጤቶች, እና ትራፊዎች",
+                "om": "Ri’aaktaantota, Omishaalee fi Haftewwan"
             },
             "description": {
                 "en": "Create your own sandwich and then see how many sandwiches you can make with different amounts of ingredients. Do the same with chemical reactions. See how many products you can make with different amounts of reactants. Play a game to test your understanding of reactants, products and leftovers. Can you get a perfect score on each level?"
@@ -2245,7 +2467,9 @@
         },
         "resistance-in-a-wire": {
             "title": {
-                "en": "Resistance in a Wire"
+                "en": "Resistance in a Wire",
+                "am": "مقاومت در یک سيم",
+                "om": "Ittisoo shiboo Keessaa"
             },
             "description": {
                 "en": "Observe changes to the equation and wire as you play with the resistivity, length, and area sliders."
@@ -2267,7 +2491,9 @@
         },
         "rutherford-scattering": {
             "title": {
-                "en": "Rutherford Scattering"
+                "en": "Rutherford Scattering",
+                "am": "ራዘርፎርድ መበተን",
+                "om": "Faca’iinsa Raazarfoordi"
             },
             "description": {
                 "en": "How did Rutherford figure out the structure of the atom without being able to see it? Simulate the famous experiment in which he disproved the Plum Pudding model of the atom by observing alpha particles bouncing off atoms and determining that they must have a small core."
@@ -2289,7 +2515,9 @@
         },
         "states-of-matter": {
             "title": {
-                "en": "States of Matter"
+                "en": "States of Matter",
+                "am": "States of Matter",
+                "om": "Falkaale Waantotaa"
             },
             "description": {
                 "en": "Watch different types of molecules form a solid, liquid, or gas. Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules."
@@ -2311,7 +2539,9 @@
         },
         "states-of-matter-basics": {
             "title": {
-                "en": "States of Matter: Basics"
+                "en": "States of Matter: Basics",
+                "am": "የቁስ አካል መገኛ ሁኔታዎች: መሰረታዊ ነገሮች",
+                "om": "Faalkaale Waantota: Bu'uura"
             },
             "description": {
                 "en": "Heat, cool and compress atoms and molecules and watch as they change between solid, liquid and gas phases."
@@ -2333,7 +2563,9 @@
         },
         "trig-tour": {
             "title": {
-                "en": "Trig Tour"
+                "en": "Trig Tour",
+                "am": "ትሪግ ጉብኝት",
+                "om": "Daawwannaa Trig"
             },
             "description": {
                 "en": "Take a tour of trigonometry using degrees or radians! Look for patterns in the values and on the graph when you change the value of theta. Compare the graphs of sine, cosine, and tangent."
@@ -2353,7 +2585,9 @@
         },
         "under-pressure": {
             "title": {
-                "en": "Under Pressure"
+                "en": "Under Pressure",
+                "am": "በግፊት ውስጥ",
+                "om": "Dhiibbaa Jalatti"
             },
             "description": {
                 "en": "Explore pressure under and above water. See how pressure changes as you change fluids, gravity, container shapes, and volume."
@@ -2373,7 +2607,9 @@
         },
         "unit-rates": {
             "title": {
-                "en": "Unit Rates"
+                "en": "Unit Rates",
+                "am": "ነጠላ ዋጋ ",
+                "om": "Gatii Tokkee"
             },
             "description": {
                 "en": "Discover the unit rate while shopping for fruits, vegetables, and candy. Construct a double number line and look for patterns. Challenge yourself on the race track as you compare cars with different rates!"
@@ -2393,7 +2629,9 @@
         },
         "vector-addition": {
             "title": {
-                "en": "Vector Addition"
+                "en": "Vector Addition",
+                "am": "የቬክተር ድምረት",
+                "om": "Kal-Qabee Ida'uu"
             },
             "description": {
                 "en": "Explore vectors in 1D or 2D, and discover how vectors add together. Specify vectors in Cartesian or polar coordinates, and see the magnitude, angle, and components of each vector. Experiment with vector equations and compare vector sums and differences."
@@ -2415,7 +2653,9 @@
         },
         "vector-addition-equations": {
             "title": {
-                "en": "Vector Addition: Equations"
+                "en": "Vector Addition: Equations",
+                "am": "ቬክተር መደመር፡እኩልታዎች",
+                "om": "Ida'uu Kal-qabee: Hima Qixxaattota"
             },
             "description": {
                 "en": "Experiment with vector equations and compare vector sums and differences. Customize the base vectors or explore scalar multiplication by adjusting the coefficients in equation. Specify vectors in Cartesian or polar coordinates, and view the magnitude, angle, and components of each vector."
@@ -2435,7 +2675,9 @@
         },
         "wave-interference": {
             "title": {
-                "en": "Wave Interference"
+                "en": "Wave Interference",
+                "am": "የሞገድ ግንኙነት",
+                "om": "Gidduu-Seensa Dambalii"
             },
             "description": {
                 "en": "Make waves with a dripping faucet, audio speaker, or laser! Add a second source to create an interference pattern. Put up a barrier to explore single-slit diffraction and double-slit interference. Experiment with diffraction through elliptical, rectangular, or irregular apertures."
@@ -2457,7 +2699,9 @@
         },
         "wave-on-a-string": {
             "title": {
-                "en": "Wave on a String"
+                "en": "Wave on a String",
+                "am": "የገመድ ላይ ሞገድ",
+                "om": "Dambalii Fo'aarraa"
             },
             "description": {
                 "en": "Explore the wonderful world of waves! Even observe a string vibrate in slow motion. Wiggle the end of the string and make waves, or adjust the frequency and amplitude of an oscillator."
@@ -2482,7 +2726,9 @@
         },
         "waves-intro": {
             "title": {
-                "en": "Waves Intro"
+                "en": "Waves Intro",
+                "am": "ሞገዶች: መግቢያ",
+                "om": "Seensa Dambalii"
             },
             "description": {
                 "en": "Make waves with a dripping faucet, audio speaker, or laser! Adjust frequency and amplitude, and observe the effects. Hear the sound produced by the speaker, and discover what determines the color of light."
@@ -2503,6 +2749,6 @@
             "added": 1790369448
         }
     },
-    "pending": 0,
+    "pending": 223,
     "first_run": 1790369448
 }

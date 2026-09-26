@@ -16,7 +16,7 @@ return [
     // Examples: 'en' English, 'am' Amharic, 'om' Afaan Oromo, 'ti' Tigrinya,
     // 'fr' French, 'ar' Arabic, 'sw' Swahili, 'pt_BR' Portuguese (Brazil).
     // Only sims that have been translated into a language are downloaded for it.
-    'locales'        => ['en'],
+    'locales'        => ['en', 'am', 'om', 'ti'],
     'default_locale' => 'en',
 
     // Download a preview picture for every sim (about 100 KB each).

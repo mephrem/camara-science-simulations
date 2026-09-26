@@ -87,7 +87,7 @@ function initials(string $t): string
     <?php if (count($locales) > 1): ?>
     <form class="lang" method="get">
       <label for="lang" class="sr">Language</label>
-      <select id="lang" name="lang" onchange="this.form.submit()">
+      <select id="lang" name="lang" onchange="location.href = '?lang=' + encodeURIComponent(this.value) + location.hash">
         <?php foreach ($locales as $l): ?>
           <option value="<?= h($l) ?>" <?= $l === $lang ? 'selected' : '' ?>><?= h(locale_name($l)) ?></option>
         <?php endforeach; ?>
