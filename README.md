@@ -51,13 +51,50 @@ cd /var/www/html/phet && sudo git pull
 
 Downloaded sims, the catalog and `config.local.php` are not in git, so a pull never touches them.
 
+## Copying the library to another server (USB)
+
+On the admin page, **Offline copy for another server** downloads the library as one `.tar` file.
+You can pick the languages and choose whether to include the app itself. You can also write the file
+straight to a USB drive from a terminal:
+
+```bash
+php pack-cli.php /media/usb/camara-sims.tar                 # all languages + the app
+php pack-cli.php --langs=en,am --no-app /media/usb/sims.tar # only some languages, sims only
+```
+
+Unpack it on the other server:
+
+```bash
+sudo tar -xf camara-sims.tar -C /var/www/html/
+sudo chown -R www-data:www-data /var/www/html/phet/sims /var/www/html/phet/data
+```
+
+On Windows (Laragon Terminal): `tar -xf camara-sims.tar -C C:\laragon\www\`
+
+## Usage counts
+
+`play.php` counts each time a simulation is opened: only the sim, the language and the month,
+with no names or IP addresses. Reopening the same sim on the same computer within 30 minutes
+counts once. The admin page shows the totals and the most-opened sims, and exports a CSV for reports.
+Counts are kept in `data/usage.json` (not in git).
+
+## Page languages and grade levels
+
+Page labels (search, filters, subjects, grades) follow the language chosen in the menu.
+The text is in `lang/<code>.php` (`en`, `am`, `om`, `ti`). The Amharic, Afaan Oromoo and Tigrinya files
+are drafts: have a native speaker review them, and edit only the text between quotes.
+
+Grade filters use Ethiopia's 6-2-4 structure, mapped from PhET's four levels:
+Primary (Grades 1–6), Middle (7–8), Secondary (9–12), University.
+
 ## Settings
 
 `config.php` holds the defaults: site title, languages, thumbnails, "New" badge days.
 Put per-server changes in `config.local.php`, which overrides `config.php` and is ignored by git.
 
 Languages: `'locales' => ['en', 'am']`, then click **Update now**. A language menu appears on the page.
-Sims that haven't been translated yet open in English.
+Each language lists only the sims that are really translated into it (translated title, in the
+language's own script), because PhET also lists translations that were only started.
 
 ## Recommended Apache hardening
 
@@ -84,12 +121,16 @@ Sims that haven't been translated yet open in English.
 |---|---|
 | `index.php` | Landing page: search, subject and grade filters |
 | `admin.php` | Password-protected update page |
+| `play.php` | Plays a sim in the same tab with a back button; counts usage |
 | `update-cli.php` | Terminal / cron updater |
+| `pack-cli.php` | Makes an offline library pack (.tar) |
+| `lang/` | Page labels per language |
 | `lib/common.php` | Settings, subject and grade taxonomy, catalog helpers |
 | `lib/updater.php` | Talks to PhET's metadata service, downloads sims and pictures |
+| `lib/pack.php` | Builds the offline .tar pack |
 | `assets/` | CSS, JS, Camara logo |
 | `sims/` | Downloaded sims (`<sim>_<lang>.html`) and `thumbs/` (not in git) |
-| `data/` | `catalog.json` and the update log (not in git) |
+| `data/` | `catalog.json`, `usage.json` and the update log (not in git) |
 
 Subject and grade IDs come from PhET's metadata service (see `phetsims/rosetta`, `SimMetadataTypes.ts`).
 

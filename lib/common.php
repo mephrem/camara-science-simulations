@@ -112,14 +112,71 @@ function classify_subjects(array $ids): array
     return [array_keys($tops), array_keys($subs)];
 }
 
+/* ---------------------------------------------------------------- Page labels */
+
+/** Choose the language for page labels (the same as the sims' language). */
+function set_ui_lang(string $loc): void
+{
+    $GLOBALS['__ui_lang'] = $loc;
+}
+
+function ui_strings(): array
+{
+    static $cache = [];
+    $loc = $GLOBALS['__ui_lang'] ?? 'en';
+    if (!isset($cache[$loc])) {
+        $en = require APP_DIR . '/lang/en.php';
+        $file = APP_DIR . '/lang/' . $loc . '.php';
+        $tr = (is_valid_locale($loc) && $loc !== 'en' && is_file($file)) ? (require $file) : [];
+        // Missing labels fall back to English, including inside the grades/subjects lists.
+        foreach (['grades', 'subjects'] as $k) {
+            $tr[$k] = ($tr[$k] ?? []) + $en[$k];
+        }
+        $cache[$loc] = $tr + $en;
+    }
+    return $cache[$loc];
+}
+
+/** A translated label, with {placeholders} filled in. */
+function t(string $key, array $vars = []): string
+{
+    $s = (string)(ui_strings()[$key] ?? $key);
+    foreach ($vars as $k => $v) {
+        $s = str_replace('{' . $k . '}', (string)$v, $s);
+    }
+    return $s;
+}
+
+function subject_name($key): string
+{
+    return ui_strings()['subjects'][$key] ?? (string)$key;
+}
+
+/**
+ * Grade bands. PhET's four levels line up with Ethiopia's 6-2-4 school structure:
+ * elementary = primary (1–6), middle = middle (7–8), high = secondary (9–12), university.
+ */
 function grade_levels(): array
 {
-    return [
-        0 => 'Elementary School',
-        1 => 'Middle School',
-        2 => 'High School',
-        3 => 'University',
-    ];
+    return ui_strings()['grades'];
+}
+
+/** Short label for a card, e.g. "Grades 7–12" or "Grade 9 – University". */
+function grade_label(?int $low, ?int $high): string
+{
+    if ($low === null || $high === null) {
+        return '';
+    }
+    [$low, $high] = [min($low, $high), max($low, $high)];
+    $first = [0 => 1, 1 => 7, 2 => 9];
+    $last = [0 => 6, 1 => 8, 2 => 12];
+    if ($low >= 3) {
+        return t('university');
+    }
+    if ($high >= 3) {
+        return t('grades_to_univ', ['a' => $first[$low]]);
+    }
+    return t('grades_range', ['a' => $first[$low], 'b' => $last[$high]]);
 }
 
 function locale_name(string $loc): string
@@ -290,4 +347,46 @@ function human_time(?int $ts): string
         return 'never';
     }
     return date('j M Y, H:i', $ts);
+}
+
+/* ---------------------------------------------------------------- Usage counts */
+
+define('USAGE_FILE', DATA_DIR . '/usage.json');
+
+/**
+ * Count one opening of a sim. Stores only sim name, language and month; no personal data.
+ * Never breaks the page: if the data folder isn't writable, it silently does nothing.
+ */
+function record_usage(string $sim, string $lang): void
+{
+    $fh = @fopen(USAGE_FILE, 'c+');
+    if (!$fh) {
+        return;
+    }
+    if (flock($fh, LOCK_EX)) {
+        $raw = stream_get_contents($fh);
+        $u = json_decode($raw ?: '', true);
+        if (!is_array($u)) {
+            $u = ['since' => time(), 'total' => 0, 'sims' => [], 'langs' => [], 'months' => []];
+        }
+        $month = date('Y-m');
+        $u['total'] = ($u['total'] ?? 0) + 1;
+        $u['sims'][$sim][$lang] = ($u['sims'][$sim][$lang] ?? 0) + 1;
+        $u['langs'][$lang] = ($u['langs'][$lang] ?? 0) + 1;
+        $u['months'][$month] = ($u['months'][$month] ?? 0) + 1;
+        $u['last'] = time();
+        ftruncate($fh, 0);
+        rewind($fh);
+        fwrite($fh, json_encode($u, JSON_UNESCAPED_SLASHES));
+        fflush($fh);
+        flock($fh, LOCK_UN);
+    }
+    fclose($fh);
+}
+
+function load_usage(): array
+{
+    $u = is_file(USAGE_FILE) ? json_decode((string)file_get_contents(USAGE_FILE), true) : null;
+    return is_array($u) ? $u + ['since' => null, 'total' => 0, 'sims' => [], 'langs' => [], 'months' => [], 'last' => null]
+        : ['since' => null, 'total' => 0, 'sims' => [], 'langs' => [], 'months' => [], 'last' => null];
 }

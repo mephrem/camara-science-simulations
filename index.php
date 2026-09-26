@@ -6,11 +6,11 @@ $lang = $_GET['lang'] ?? cfg('default_locale');
 if (!in_array($lang, $locales, true)) {
     $lang = cfg('default_locale');
 }
+set_ui_lang($lang);
 
 $library = local_library();
 $tree = subject_tree();
 $grades = grade_levels();
-$gradeShort = [0 => 'Elementary', 1 => 'Middle', 2 => 'High School', 3 => 'University'];
 $newCutoff = time() - 86400 * (int)cfg('new_days');
 // Sims from the very first download aren't "new"; only ones added by later updates are.
 $firstRun = (int)(load_catalog()['first_run'] ?? time());
@@ -34,10 +34,7 @@ foreach ($library as $sim => $info) {
     foreach ($subs as $s) $subCounts[$s] = ($subCounts[$s] ?? 0) + 1;
     foreach ($gradeList as $g) $gradeCounts[$g] = ($gradeCounts[$g] ?? 0) + 1;
 
-    $gradeLabel = '';
-    if ($gradeList) {
-        $gradeLabel = $low === $high ? $gradeShort[$low] : $gradeShort[min($low, $high)] . ' – ' . $gradeShort[max($low, $high)];
-    }
+    $gradeLabel = $gradeList ? grade_label((int)$low, (int)$high) : '';
     $added = (int)($info['added'] ?? 0);
     $cards[] = [
         'sim' => $sim,
@@ -71,7 +68,7 @@ function initials(string $t): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?= h(cfg('site_title')) ?></title>
 <link rel="icon" href="assets/camara-mark.png" type="image/png">
-<link rel="stylesheet" href="assets/style.css?v=8">
+<link rel="stylesheet" href="assets/style.css?v=10">
 </head>
 <body>
 
@@ -81,16 +78,16 @@ function initials(string $t): string
       <img class="logo" src="assets/camara-logo-white.png" alt="Camara Education Ethiopia" width="562" height="209">
       <span class="brand-text">
         <strong><?= h(cfg('site_title')) ?></strong>
-        <small><?= h(cfg('site_subtitle')) ?></small>
+        <small><?= h($lang === 'en' ? cfg('site_subtitle') : t('subtitle')) ?></small>
       </span>
     </a>
     <div class="search">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-      <input id="q" type="search" placeholder="Search simulations…" autocomplete="off" aria-label="Search simulations">
+      <input id="q" type="search" placeholder="<?= h(t('search')) ?>" autocomplete="off" aria-label="<?= h(t('search')) ?>">
     </div>
     <?php if (count($locales) > 1): ?>
     <form class="lang" method="get">
-      <label for="lang" class="sr">Language</label>
+      <label for="lang" class="sr"><?= h(t('language')) ?></label>
       <select id="lang" name="lang" onchange="location.href = '?lang=' + encodeURIComponent(this.value) + location.hash">
         <?php foreach ($locales as $l): ?>
           <option value="<?= h($l) ?>" <?= $l === $lang ? 'selected' : '' ?>><?= h(locale_name($l)) ?></option>
@@ -103,8 +100,8 @@ function initials(string $t): string
 
 <?php if (!$cards && $library): ?>
 <main class="empty-lib">
-  <h1>No simulations in <?= h(locale_name($lang)) ?> yet</h1>
-  <p>Choose another language from the menu above.</p>
+  <h1><?= h(t('none_in_lang')) ?></h1>
+  <p><?= h(t('choose_other')) ?></p>
 </main>
 <?php elseif (!$cards): ?>
 <main class="empty-lib">
@@ -117,26 +114,26 @@ function initials(string $t): string
 <div class="layout">
   <button class="filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="filters">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M6 12h12M10 19h4"/></svg>
-    Filters <span id="filterCount" class="pill" hidden></span>
+    <?= h(t('filters')) ?> <span id="filterCount" class="pill" hidden></span>
   </button>
 
   <aside class="filters" id="filters">
     <section>
-      <h2>Subject</h2>
+      <h2><?= h(t('subject')) ?></h2>
       <?php foreach ($tree as $key => $node): if (empty($subjectCounts[$key])) continue; ?>
         <div class="fgroup subj-<?= h($key) ?>">
           <label class="check top-check">
             <input type="checkbox" name="subject" value="<?= h($key) ?>">
-            <span class="dot"></span><?= h($node['name']) ?>
+            <span class="dot"></span><?= h(subject_name($key)) ?>
             <em><?= (int)$subjectCounts[$key] ?></em>
           </label>
           <?php $kids = array_filter($node['children'], fn($id) => !empty($subCounts[$id]), ARRAY_FILTER_USE_KEY); ?>
           <?php if ($kids): ?>
           <div class="kids">
-            <?php foreach ($kids as $id => $name): ?>
+            <?php foreach (array_keys($kids) as $id): ?>
               <label class="check">
                 <input type="checkbox" name="sub" value="<?= (int)$id ?>">
-                <?= h($name) ?> <em><?= (int)$subCounts[$id] ?></em>
+                <?= h(subject_name($id)) ?> <em><?= (int)$subCounts[$id] ?></em>
               </label>
             <?php endforeach; ?>
           </div>
@@ -146,13 +143,13 @@ function initials(string $t): string
       <?php if ($hasUncategorized): ?>
         <label class="check top-check">
           <input type="checkbox" name="subject" value="none">
-          <span class="dot"></span>Not yet sorted
+          <span class="dot"></span><?= h(t('not_sorted')) ?>
         </label>
       <?php endif; ?>
     </section>
 
     <section>
-      <h2>Grade level</h2>
+      <h2><?= h(t('grade_level')) ?></h2>
       <?php foreach ($grades as $g => $name): if (empty($gradeCounts[$g])) continue; ?>
         <label class="check">
           <input type="checkbox" name="grade" value="<?= (int)$g ?>">
@@ -161,16 +158,16 @@ function initials(string $t): string
       <?php endforeach; ?>
     </section>
 
-    <button type="button" class="clear" id="clear">Clear all filters</button>
+    <button type="button" class="clear" id="clear"><?= h(t('clear')) ?></button>
   </aside>
 
   <main class="results">
     <div class="bar">
-      <p id="count" aria-live="polite"><?= count($cards) ?> simulations</p>
-      <label class="sort">Sort
+      <p id="count" aria-live="polite" data-all="<?= h(t('count_all')) ?>" data-some="<?= h(t('count_some')) ?>"><?= h(t('count_all', ['n' => count($cards)])) ?></p>
+      <label class="sort"><?= h(t('sort')) ?>
         <select id="sort">
-          <option value="az">A – Z</option>
-          <option value="new">Newest here</option>
+          <option value="az"><?= h(t('sort_az')) ?></option>
+          <option value="new"><?= h(t('sort_new')) ?></option>
         </select>
       </label>
     </div>
@@ -190,7 +187,7 @@ function initials(string $t): string
             <?php else: ?>
               <span class="initials"><?= h(initials($c['title'])) ?></span>
             <?php endif; ?>
-            <?php if ($c['isNew']): ?><span class="badge new">New</span><?php endif; ?>
+            <?php if ($c['isNew']): ?><span class="badge new"><?= h(t('new')) ?></span><?php endif; ?>
             <?php if ($c['fileLang'] !== $lang): ?><span class="badge lang"><?= h(strtoupper($c['fileLang'])) ?></span><?php endif; ?>
           </div>
           <div class="meta">
@@ -198,7 +195,7 @@ function initials(string $t): string
             <?php if ($c['gradeLabel']): ?><p class="grade"><?= h($c['gradeLabel']) ?></p><?php endif; ?>
             <?php if ($c['tops']): ?>
             <p class="chips">
-              <?php foreach ($c['tops'] as $t): ?><span class="chip subj-<?= h($t) ?>"><?= h($tree[$t]['name']) ?></span><?php endforeach; ?>
+              <?php foreach ($c['tops'] as $t): ?><span class="chip subj-<?= h($t) ?>"><?= h(subject_name($t)) ?></span><?php endforeach; ?>
             </p>
             <?php endif; ?>
           </div>
@@ -208,8 +205,8 @@ function initials(string $t): string
     </ul>
 
     <div class="none" id="none" hidden>
-      <p>No simulations match these filters.</p>
-      <button type="button" class="clear" id="clear2">Clear all filters</button>
+      <p><?= h(t('no_match')) ?></p>
+      <button type="button" class="clear" id="clear2"><?= h(t('clear')) ?></button>
     </div>
   </main>
 </div>
@@ -221,6 +218,6 @@ function initials(string $t): string
      phet.colorado.edu. Used under PhET's licensing terms.</p>
 </footer>
 
-<script src="assets/app.js?v=5"></script>
+<script src="assets/app.js?v=6"></script>
 </body>
 </html>

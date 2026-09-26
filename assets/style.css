@@ -254,3 +254,25 @@ body.player .empty-lib { background: var(--bg); flex: 1; margin: 0; padding: 60p
   .player-bar .back { padding: 7px; }
   .player-bar .mark { display: none; }
 }
+
+/* ---------- Admin: tables, usage bars, pack form ---------- */
+.table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 14px; }
+.table th, .table td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); }
+.table th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.table .num { text-align: right; font-variant-numeric: tabular-nums; }
+.table tfoot td { font-weight: 600; border-bottom: 0; }
+.table small { color: var(--muted); }
+h3.sub { font-size: 14px; margin: 18px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.bars { list-style: none; margin: 0; padding: 0; }
+.bars li { display: grid; grid-template-columns: minmax(0, 220px) 1fr 44px; gap: 10px; align-items: center; padding: 3px 0; font-size: 14px; }
+.bar-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.meter { height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.meter span { display: block; height: 100%; background: var(--navy); border-radius: 999px; }
+.bar-n { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.hint { color: var(--muted); font-size: 13px; }
+.langs { border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; margin: 12px 0 0; }
+.langs legend { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding: 0 4px; }
+.howto { margin-top: 14px; }
+.howto summary { cursor: pointer; font-weight: 600; }
+a.btn { display: inline-block; text-decoration: none; }
+@media (max-width: 520px) { .bars li { grid-template-columns: minmax(0, 1fr) 70px 36px; } }

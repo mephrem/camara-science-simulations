@@ -25,6 +25,9 @@
     return boxes.filter(function (b) { return b.name === name && b.checked; })
                 .map(function (b) { return b.value; });
   }
+  function fill(tpl, vars) {
+    return tpl.replace(/\{(\w+)\}/g, function (m, k) { return k in vars ? vars[k] : m; });
+  }
   function words(s) { return s ? s.split(' ') : []; }
   function overlaps(a, b) {
     for (var i = 0; i < a.length; i++) if (b.indexOf(a[i]) !== -1) return true;
@@ -53,8 +56,8 @@
     });
 
     count.textContent = shown === cards.length
-      ? cards.length + ' simulations'
-      : shown + ' of ' + cards.length + ' simulations';
+      ? fill(count.dataset.all, { n: cards.length })
+      : fill(count.dataset.some, { shown: shown, total: cards.length });
     none.hidden = shown !== 0;
 
     var n = subjects.length + subs.length + grades.length;
