@@ -181,7 +181,7 @@ class PhetUpdater
                     if ($desc !== '') {
                         $remote[$name]['description'][$loc] = $desc;
                     }
-                    if (in_array($loc, $wanted, true)) {
+                    if (in_array($loc, $wanted, true) && translation_ok($remote[$name]['title'], $loc)) {
                         $remote[$name]['locales'][$loc] = true;
                     }
                 }
@@ -213,7 +213,7 @@ class PhetUpdater
     {
         $remote = $remote ?? $this->fetchRemote();
         $catalog = load_catalog();
-        $plan = ['remote' => $remote, 'new' => [], 'update' => [], 'adopt' => [], 'thumbs' => []];
+        $plan = ['remote' => $remote, 'new' => [], 'update' => [], 'adopt' => [], 'thumbs' => [], 'remove' => []];
 
         foreach ($remote as $sim => $r) {
             foreach ($r['locales'] as $loc) {
@@ -234,6 +234,13 @@ class PhetUpdater
                     $plan['adopt'][] = $item;
                 } elseif ($old !== $r['version']) {
                     $plan['update'][] = $item;
+                }
+            }
+            // Files we downloaded earlier for a language the sim isn't really translated into.
+            foreach (cfg('locales') as $loc) {
+                if ($loc !== 'en' && !in_array($loc, $r['locales'], true)
+                    && isset($catalog['sims'][$sim]['versions'][$loc]) && is_file(sim_file($sim, $loc))) {
+                    $plan['remove'][] = ['sim' => $sim, 'locale' => $loc, 'title' => $r['title'][$loc] ?? $sim];
                 }
             }
             if (cfg('download_thumbnails') && $r['locales'] && !is_file(thumb_file($sim))) {
@@ -286,6 +293,11 @@ class PhetUpdater
                 ];
             }
 
+            foreach ($plan['remove'] as $it) {
+                @unlink(sim_file($it['sim'], $it['locale']));
+                unset($catalog['sims'][$it['sim']]['versions'][$it['locale']]);
+                $this->log("Removed {$it['sim']} [{$it['locale']}]: not really translated yet.");
+            }
             foreach ($plan['adopt'] as $it) {
                 $catalog['sims'][$it['sim']]['versions'][$it['locale']] = $it['version'];
                 $catalog['sims'][$it['sim']]['added'] = $catalog['sims'][$it['sim']]['added']

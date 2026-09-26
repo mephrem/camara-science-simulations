@@ -21,8 +21,12 @@ $subjectCounts = [];
 $subCounts = [];
 $gradeCounts = [];
 foreach ($library as $sim => $info) {
+    // Only list sims that exist in the chosen language.
+    if (!isset($info['files'][$lang])) {
+        continue;
+    }
     [$tops, $subs] = classify_subjects($info['subjects'] ?? []);
-    $fileLang = isset($info['files'][$lang]) ? $lang : (isset($info['files']['en']) ? 'en' : array_key_first($info['files']));
+    $fileLang = $lang;
     $low = $info['low'] ?? null;
     $high = $info['high'] ?? null;
     $gradeList = ($low !== null && $high !== null) ? range(min($low, $high), max($low, $high)) : [];
@@ -97,7 +101,12 @@ function initials(string $t): string
   </div>
 </header>
 
-<?php if (!$cards): ?>
+<?php if (!$cards && $library): ?>
+<main class="empty-lib">
+  <h1>No simulations in <?= h(locale_name($lang)) ?> yet</h1>
+  <p>Choose another language from the menu above.</p>
+</main>
+<?php elseif (!$cards): ?>
 <main class="empty-lib">
   <h1>No simulations yet</h1>
   <p>Open the <a href="admin.php">admin page</a> while connected to the internet and click <b>Update now</b>

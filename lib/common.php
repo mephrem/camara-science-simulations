@@ -133,6 +133,48 @@ function locale_name(string $loc): string
     return $names[$loc] ?? $loc;
 }
 
+/**
+ * Script a language is written in, for languages that don't use Latin letters.
+ * Used to spot "translations" that are really English (or another language) left in place.
+ */
+function locale_script(string $loc): ?string
+{
+    static $map = [
+        'am' => 'Ethiopic', 'ti' => 'Ethiopic',
+        'ar' => 'Arabic', 'fa' => 'Arabic', 'ur' => 'Arabic', 'ps' => 'Arabic', 'ku' => 'Arabic',
+        'he' => 'Hebrew', 'el' => 'Greek', 'th' => 'Thai', 'ko' => 'Hangul', 'ka' => 'Georgian',
+        'hy' => 'Armenian', 'bn' => 'Bengali', 'ta' => 'Tamil', 'te' => 'Telugu', 'kn' => 'Kannada',
+        'ml' => 'Malayalam', 'gu' => 'Gujarati', 'pa' => 'Gurmukhi', 'si' => 'Sinhala', 'km' => 'Khmer',
+        'lo' => 'Lao', 'my' => 'Myanmar', 'hi' => 'Devanagari', 'mr' => 'Devanagari', 'ne' => 'Devanagari',
+        'ru' => 'Cyrillic', 'uk' => 'Cyrillic', 'bg' => 'Cyrillic', 'mk' => 'Cyrillic', 'mn' => 'Cyrillic',
+        'kk' => 'Cyrillic', 'be' => 'Cyrillic', 'zh_CN' => 'Han', 'zh_TW' => 'Han', 'ja' => 'Han',
+    ];
+    return $map[$loc] ?? null;
+}
+
+/**
+ * Is this sim genuinely translated into $loc?
+ * PhET lists a sim under a language as soon as a translation is started, so we also require
+ * the title to be translated (different from English) and, for non-Latin languages,
+ * written in that language's script.
+ */
+function translation_ok(array $titles, string $loc): bool
+{
+    if ($loc === 'en') {
+        return true;
+    }
+    $norm = fn($s) => mb_strtolower(trim(preg_replace('/[\x{200E}\x{200F}\x{202A}-\x{202E}\s]+/u', ' ', (string)$s)));
+    $t = $norm($titles[$loc] ?? '');
+    if ($t === '' || $t === $norm($titles['en'] ?? '')) {
+        return false;
+    }
+    $script = locale_script($loc);
+    if ($script === 'Han') {
+        return preg_match('/[\p{Han}\p{Hiragana}\p{Katakana}]/u', $t) === 1;
+    }
+    return $script === null || preg_match('/\p{' . $script . '}/u', $t) === 1;
+}
+
 function sim_file(string $sim, string $loc): string
 {
     return SIMS_DIR . "/{$sim}_{$loc}.html";
@@ -192,7 +234,7 @@ function local_library(): array
         }
         $files = [];
         foreach ($locales as $loc) {
-            if (is_file(sim_file($sim, $loc))) {
+            if (is_file(sim_file($sim, $loc)) && translation_ok($info['title'] ?? [], $loc)) {
                 $files[$loc] = "sims/{$sim}_{$loc}.html";
             }
         }
@@ -209,7 +251,8 @@ function local_library(): array
             continue;
         }
         [, $sim, $loc] = $m;
-        if (!in_array($loc, $locales, true) || isset($out[$sim]['files'][$loc])) {
+        // Skip sims the catalog already knows (it decided above whether this language counts).
+        if (!in_array($loc, $locales, true) || isset($catalog['sims'][$sim]) || isset($out[$sim]['files'][$loc])) {
             continue;
         }
         if (!isset($out[$sim])) {
