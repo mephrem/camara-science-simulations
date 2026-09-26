@@ -1,0 +1,2508 @@
+{
+    "updated": 1790369892,
+    "checked": 1790369904,
+    "sims": {
+        "acid-base-solutions": {
+            "title": {
+                "en": "Acid-Base Solutions"
+            },
+            "description": {
+                "en": "How do strong and weak acids differ? Use lab tools on your computer to find out! Dip the paper or the probe into solution to measure the pH, or put in the electrodes to measure the conductivity. Then see how concentration and strength affect pH. Can a weak acid solution have the same pH as a strong acid solution?"
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.3.15",
+            "versions": {
+                "en": "1.3.15"
+            },
+            "added": 1790369448
+        },
+        "area-builder": {
+            "title": {
+                "en": "Area Builder"
+            },
+            "description": {
+                "en": "Create your own shapes using colorful blocks and explore the relationship between perimeter and area. Compare the area and perimeter of two shapes side-by-side. Challenge yourself in the game screen to build shapes or find the area of funky figures. Try to collect lots of stars!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.1.38",
+            "versions": {
+                "en": "1.1.38"
+            },
+            "added": 1790369448
+        },
+        "area-model-algebra": {
+            "title": {
+                "en": "Area Model Algebra"
+            },
+            "description": {
+                "en": "Build rectangles of various sizes and relate multiplication to area. Discover new strategies for multiplying algebraic expressions. Use the game screen to test your multiplication and factoring skills!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.3.9",
+            "versions": {
+                "en": "1.3.9"
+            },
+            "added": 1790369448
+        },
+        "area-model-decimals": {
+            "title": {
+                "en": "Area Model Decimals"
+            },
+            "description": {
+                "en": "Build rectangles of various sizes and relate multiplication to area. Partition a rectangle into smaller areas and discover new strategies for multiplying decimals!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.3.8",
+            "versions": {
+                "en": "1.3.8"
+            },
+            "added": 1790369448
+        },
+        "area-model-introduction": {
+            "title": {
+                "en": "Area Model Introduction"
+            },
+            "description": {
+                "en": "Build rectangles of various sizes and relate multiplication to area. Partition a rectangle into two areas to discover the distributive property."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 0,
+            "isNew": false,
+            "latest": "1.3.8",
+            "versions": {
+                "en": "1.3.8"
+            },
+            "added": 1790369448
+        },
+        "area-model-multiplication": {
+            "title": {
+                "en": "Area Model Multiplication"
+            },
+            "description": {
+                "en": "Build rectangles of various sizes and relate multiplication to area. Discover new strategies for multiplying large numbers. Use the game screen to test your problem solving strategies!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.3.9",
+            "versions": {
+                "en": "1.3.9"
+            },
+            "added": 1790369448
+        },
+        "arithmetic": {
+            "title": {
+                "en": "Arithmetic"
+            },
+            "description": {
+                "en": "Remember your multiplication tables? Practice your multiplication, division, and factoring skills with this exciting game. No calculators allowed!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.2.8",
+            "versions": {
+                "en": "1.2.8"
+            },
+            "added": 1790369448
+        },
+        "atomic-interactions": {
+            "title": {
+                "en": "Atomic Interactions"
+            },
+            "description": {
+                "en": "Explore the interactions between various combinations of two atoms. Observe the total force acting on the atoms or the individual attractive and repulsive forces. Customize the attraction to see how changing the atomic diameter and interaction strength affects the interaction."
+            },
+            "subjects": [
+                4,
+                8,
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.21",
+            "versions": {
+                "en": "1.2.21"
+            },
+            "added": 1790369448
+        },
+        "balancing-act": {
+            "title": {
+                "en": "Balancing Act"
+            },
+            "description": {
+                "en": "Play with objects on a teeter totter to learn about balance. Test what you've learned by trying the Balance Challenge game."
+            },
+            "subjects": [
+                4,
+                5,
+                15,
+                31
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.3.7",
+            "versions": {
+                "en": "1.3.7"
+            },
+            "added": 1790369448
+        },
+        "balancing-chemical-equations": {
+            "title": {
+                "en": "Balancing Chemical Equations"
+            },
+            "description": {
+                "en": "How do you know if a chemical equation is balanced? What can you change to balance an equation? Play a game to test your ideas!"
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "2.1.2",
+            "versions": {
+                "en": "2.1.2"
+            },
+            "added": 1790369448
+        },
+        "balloons-and-static-electricity": {
+            "title": {
+                "en": "Balloons and Static Electricity"
+            },
+            "description": {
+                "en": "Grab a balloon to explore concepts of static electricity such as charge transfer, attraction, repulsion, and induced charge."
+            },
+            "subjects": [
+                4,
+                11,
+                13,
+                14,
+                19
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.5.26",
+            "versions": {
+                "en": "1.5.26"
+            },
+            "added": 1790369448
+        },
+        "beers-law-lab": {
+            "title": {
+                "en": "Beer's Law Lab"
+            },
+            "description": {
+                "en": "“The thicker the glass, the darker the brew, the less the light that passes through.” Make colorful concentrated and dilute solutions and explore how much light they absorb and transmit using a virtual spectrophotometer!"
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.8.7",
+            "versions": {
+                "en": "1.8.7"
+            },
+            "added": 1790369448
+        },
+        "bending-light": {
+            "title": {
+                "en": "Bending Light"
+            },
+            "description": {
+                "en": "Explore bending of light between two media with different indices of refraction. See how changing from air to water to glass changes the bending angle. Play with prisms of different shapes and make rainbows."
+            },
+            "subjects": [
+                4,
+                10
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.5",
+            "versions": {
+                "en": "1.2.5"
+            },
+            "added": 1790369448
+        },
+        "blackbody-spectrum": {
+            "title": {
+                "en": "Blackbody Spectrum"
+            },
+            "description": {
+                "en": "How does the blackbody spectrum of the sun compare to visible light? Learn about the blackbody spectrum of Sirius A, the sun, a light bulb, and the earth. Adjust the temperature to see the wavelength and intensity of the spectrum change. View the color of the peak of the spectral curve."
+            },
+            "subjects": [
+                4,
+                9,
+                10,
+                13,
+                14,
+                20
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.26",
+            "versions": {
+                "en": "1.0.26"
+            },
+            "added": 1790369448
+        },
+        "build-a-fraction": {
+            "title": {
+                "en": "Build a Fraction"
+            },
+            "description": {
+                "en": "Build fractions from shapes and numbers to earn stars in this fractions game or explore in the Fractions Lab. Challenge yourself on any level you like. Try to collect lots of stars!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.0.31",
+            "versions": {
+                "en": "1.0.31"
+            },
+            "added": 1790369448
+        },
+        "build-a-molecule": {
+            "title": {
+                "en": "Build a Molecule"
+            },
+            "description": {
+                "en": "Starting from atoms, see how many molecules you can build. Collect your molecules and view them in 3D!"
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.25",
+            "versions": {
+                "en": "1.0.25"
+            },
+            "added": 1790369448
+        },
+        "build-a-nucleus": {
+            "title": {
+                "en": "Build a Nucleus"
+            },
+            "description": {
+                "en": "How does changing the number of neutrons or protons affect the nuclear species, the stability of a nucleus, and its possible decay mechanisms?  Explore different species, and learn about the common decay paths! Visualize these through the chart of the nuclides and discover the inner energy levels of the nucleus."
+            },
+            "subjects": [
+                4,
+                13
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.10",
+            "versions": {
+                "en": "1.1.10"
+            },
+            "added": 1790369448
+        },
+        "build-an-atom": {
+            "title": {
+                "en": "Build an Atom"
+            },
+            "description": {
+                "en": "Build an atom out of protons, neutrons, and electrons, and see how the element, charge, and mass change. Then play a game to test your ideas!"
+            },
+            "subjects": [
+                4,
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.9.3",
+            "versions": {
+                "en": "1.9.3"
+            },
+            "added": 1790369448
+        },
+        "buoyancy": {
+            "title": {
+                "en": "Buoyancy"
+            },
+            "description": {
+                "en": "When will objects float, and when will they sink? Learn how buoyancy works and the forces involved by experimenting with objects, like blocks, materials with different shapes, a bottle with substances inside, and blocks in a boat, in a pool with a fluid that can be modified."
+            },
+            "subjects": [
+                4,
+                5
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.2.12",
+            "versions": {
+                "en": "1.2.12"
+            },
+            "added": 1790369448
+        },
+        "buoyancy-basics": {
+            "title": {
+                "en": "Buoyancy: Basics"
+            },
+            "description": {
+                "en": "When will objects float, and when will they sink? Learn how buoyancy works by experimenting with different blocks, modifying their volume and mass, and placing them in the pool with fluids of different densities.  Analyze the forces generated when the block is inside the pool, and identify the variables that affect the buoyant force."
+            },
+            "subjects": [
+                4,
+                5
+            ],
+            "low": 1,
+            "high": 2,
+            "isNew": true,
+            "latest": "1.2.11",
+            "versions": {
+                "en": "1.2.11"
+            },
+            "added": 1790369448
+        },
+        "calculus-grapher": {
+            "title": {
+                "en": "Calculus Grapher"
+            },
+            "description": {
+                "en": "Manipulate a graph of any function and see graphs of its integral, first derivative, and second derivative. Drag the tangent line along the curve, and accumulate area under the curve."
+            },
+            "subjects": [
+                4,
+                5,
+                15,
+                30
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.1",
+            "versions": {
+                "en": "1.1.1"
+            },
+            "added": 1790369448
+        },
+        "capacitor-lab-basics": {
+            "title": {
+                "en": "Capacitor Lab: Basics"
+            },
+            "description": {
+                "en": "Explore how a capacitor works! Change the size of the plates and the distance between them. Change the voltage and see charges build up on the plates. View the electric field, and measure the voltage. Connect a charged capacitor to a light bulb and observe a discharging RC circuit."
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.6.39",
+            "versions": {
+                "en": "1.6.39"
+            },
+            "added": 1790369448
+        },
+        "center-and-variability": {
+            "title": {
+                "en": "Center and Variability"
+            },
+            "description": {
+                "en": "Center and Variability allows students to explore and compare measures of center and variability, including mean, median, range, IQR, and MAD."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.2.6",
+            "versions": {
+                "en": "1.2.6"
+            },
+            "added": 1790369448
+        },
+        "charges-and-fields": {
+            "title": {
+                "en": "Charges and Fields"
+            },
+            "description": {
+                "en": "Arrange positive and negative charges in space and view the resulting electric field and electrostatic potential. Plot equipotential lines and discover their relationship to the electric field. Create models of dipoles, capacitors, and more!"
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.67",
+            "versions": {
+                "en": "1.0.67"
+            },
+            "added": 1790369448
+        },
+        "circuit-construction-kit-ac": {
+            "title": {
+                "en": "Circuit Construction Kit: AC"
+            },
+            "description": {
+                "en": "Experiment with an electronics kit! Build circuits with batteries, resistors, ideal and non-Ohmic light bulbs, fuses, and switches. Build circuits with AC voltage sources, batteries, resistors, capacitors, inductors, fuses, and switches. Take measurements with a lifelike ammeter and voltmeter and graph the current and voltage as a function of time. View the circuit as a schematic diagram or switch to a lifelike view."
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.23",
+            "versions": {
+                "en": "1.0.23"
+            },
+            "added": 1790369448
+        },
+        "circuit-construction-kit-ac-virtual-lab": {
+            "title": {
+                "en": "Circuit Construction Kit: AC - Virtual Lab"
+            },
+            "description": {
+                "en": "Do you like Circuit Construction Kit: AC, but want to use only in-line ammeters? This is the sim for you! Experiment with an electronics kit. Build circuits with AC voltage sources, batteries, resistors, capacitors, inductors, fuses, and switches. Take measurements with a lifelike ammeter and voltmeter and graph the current and voltage as a function of time. View the circuit as a schematic diagram or switch to a lifelike view."
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.22",
+            "versions": {
+                "en": "1.0.22"
+            },
+            "added": 1790369448
+        },
+        "circuit-construction-kit-dc": {
+            "title": {
+                "en": "Circuit Construction Kit: DC"
+            },
+            "description": {
+                "en": "Experiment with an electronics kit! Build circuits with batteries, resistors, ideal and non-Ohmic light bulbs, fuses, and switches. Determine if everyday objects are conductors or insulators, and take measurements with an ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a lifelike view."
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.5.2",
+            "versions": {
+                "en": "1.5.2"
+            },
+            "added": 1790369448
+        },
+        "circuit-construction-kit-dc-virtual-lab": {
+            "title": {
+                "en": "Circuit Construction Kit: DC - Virtual Lab"
+            },
+            "description": {
+                "en": "Do you like Circuit Construction Kit: DC, but want to use only in-line ammeters? This is the sim for you! Experiment with an electronics kit. Build circuits with batteries, resistors, ideal and non-Ohmic light bulbs, fuses, and switches. Determine if everyday objects are conductors or insulators, and take measurements with a lifelike ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a lifelike view."
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.5.2",
+            "versions": {
+                "en": "1.5.2"
+            },
+            "added": 1790369448
+        },
+        "collision-lab": {
+            "title": {
+                "en": "Collision Lab"
+            },
+            "description": {
+                "en": "Investigate simple collisions in 1D and more complex collisions in 2D. Experiment with the number of balls, masses, and initial conditions. Vary the elasticity and see how the total momentum and kinetic energy change during collisions."
+            },
+            "subjects": [
+                4,
+                5
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.23",
+            "versions": {
+                "en": "1.1.23"
+            },
+            "added": 1790369448
+        },
+        "color-vision": {
+            "title": {
+                "en": "Color Vision"
+            },
+            "description": {
+                "en": "Make a whole rainbow by mixing red, green, and blue light. Change the wavelength of a monochromatic beam or filter white light. View the light as a solid beam, or see the individual photons."
+            },
+            "subjects": [
+                4,
+                10,
+                12
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.3.7",
+            "versions": {
+                "en": "1.3.7"
+            },
+            "added": 1790369448
+        },
+        "concentration": {
+            "title": {
+                "en": "Concentration"
+            },
+            "description": {
+                "en": "Watch your solution change color as you mix chemicals with water. Then check molarity with the concentration meter. What are all the ways you can change the concentration of your solution? Switch solutes to compare different chemicals and find out how concentrated you can go before you hit saturation!"
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.8.6",
+            "versions": {
+                "en": "1.8.6"
+            },
+            "added": 1790369448
+        },
+        "coulombs-law": {
+            "title": {
+                "en": "Coulomb's Law"
+            },
+            "description": {
+                "en": "Visualize the electrostatic force that two charges exert on each other. Observe how changing the sign and magnitude of the charges and the distance between them affects the electrostatic force."
+            },
+            "subjects": [
+                4,
+                11,
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.32",
+            "versions": {
+                "en": "1.0.32"
+            },
+            "added": 1790369448
+        },
+        "curve-fitting": {
+            "title": {
+                "en": "Curve Fitting"
+            },
+            "description": {
+                "en": "Drag data points and their error bars and watch the best-fit polynomial curve update instantly. You choose the type of fit: linear, quadratic, or cubic. The reduced chi-square statistic shows you when the fit is good. Or you can try to find the best fit by manually adjusting fit parameters."
+            },
+            "subjects": [
+                4,
+                15,
+                31
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.20",
+            "versions": {
+                "en": "1.0.20"
+            },
+            "added": 1790369448
+        },
+        "density": {
+            "title": {
+                "en": "Density"
+            },
+            "description": {
+                "en": "Why do some materials like wood float in water, and others don’t? Interact with blocks of different materials, including a custom option by modifying their mass and volume, to explore the effect on the density and discover the conditions for sinking or floating in water. Play detective to determine the material of each block by comparing its density with the values in the table."
+            },
+            "subjects": [
+                4,
+                12,
+                13,
+                14,
+                19
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.10",
+            "versions": {
+                "en": "1.2.10"
+            },
+            "added": 1790369448
+        },
+        "diffusion": {
+            "title": {
+                "en": "Diffusion"
+            },
+            "description": {
+                "en": "Mix two gases to explore diffusion! Experiment with concentration, temperature, mass, and radius and determine how these factors affect the rate of diffusion."
+            },
+            "subjects": [
+                4,
+                8,
+                13,
+                14,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.7",
+            "versions": {
+                "en": "1.1.7"
+            },
+            "added": 1790369448
+        },
+        "energy-forms-and-changes": {
+            "title": {
+                "en": "Energy Forms and Changes"
+            },
+            "description": {
+                "en": "Explore how heating and cooling iron, brick, water, and olive oil adds or removes energy. See how energy is transferred between objects. Build your own system, with energy sources, changers, and users. Track and visualize how energy flows and changes through your system."
+            },
+            "subjects": [
+                4,
+                7,
+                8,
+                13,
+                19
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.4.24",
+            "versions": {
+                "en": "1.4.24"
+            },
+            "added": 1790369448
+        },
+        "energy-skate-park": {
+            "title": {
+                "en": "Energy Skate Park"
+            },
+            "description": {
+                "en": "Learn about the conservation of energy at the skate park! Build tracks, ramps, and jumps for the skater. View the skater's kinetic energy, potential energy, and thermal energy as they move along the track. Measure the speed and adjust the friction, gravity, and mass."
+            },
+            "subjects": [
+                4,
+                5,
+                7
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.5.1",
+            "versions": {
+                "en": "1.5.1"
+            },
+            "added": 1790369448
+        },
+        "energy-skate-park-basics": {
+            "title": {
+                "en": "Energy Skate Park: Basics"
+            },
+            "description": {
+                "en": "Learn about conservation of energy with a skater gal! Explore different tracks and view the kinetic energy, potential energy and friction as she moves. Build your own tracks, ramps, and jumps for the skater."
+            },
+            "subjects": [
+                4,
+                5,
+                7
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.5.1",
+            "versions": {
+                "en": "1.5.1"
+            },
+            "added": 1790369448
+        },
+        "equality-explorer": {
+            "title": {
+                "en": "Equality Explorer"
+            },
+            "description": {
+                "en": "Explore what it means for a mathematical statement to be balanced or unbalanced by interacting with objects on a balance. Discover the rules for keeping it balanced. Collect stars by playing the game!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.2.5",
+            "versions": {
+                "en": "1.2.5"
+            },
+            "added": 1790369448
+        },
+        "equality-explorer-basics": {
+            "title": {
+                "en": "Equality Explorer: Basics"
+            },
+            "description": {
+                "en": "Explore what it means for a mathematical statement to be balanced or unbalanced by interacting with objects on a balance. Find all the ways to balance cats and dogs or apples and oranges."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.2.5",
+            "versions": {
+                "en": "1.2.5"
+            },
+            "added": 1790369448
+        },
+        "equality-explorer-two-variables": {
+            "title": {
+                "en": "Equality Explorer: Two Variables"
+            },
+            "description": {
+                "en": "Explore what it means for a mathematical statement to be balanced or unbalanced by interacting with integers and variables on a balance. Find multiple ways to balance x and y to build a system of equations."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.2.5",
+            "versions": {
+                "en": "1.2.5"
+            },
+            "added": 1790369448
+        },
+        "expression-exchange": {
+            "title": {
+                "en": "Expression Exchange"
+            },
+            "description": {
+                "en": "Build coin expressions, then exchange them for variable expressions. Simplify and evaluate expressions until you are ready to test your understanding of equivalent expressions in the game!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.1.33",
+            "versions": {
+                "en": "1.1.33"
+            },
+            "added": 1790369448
+        },
+        "faradays-electromagnetic-lab": {
+            "title": {
+                "en": "Faraday's Electromagnetic Lab"
+            },
+            "description": {
+                "en": "Experiment with magnets and coils to learn about Faraday's Law. Measure the direction and magnitude of the magnetic field. Induce a current through the pickup coil to light a bulb and vary magnetic strength, number of loops, and loop area. Explore applications of Faraday’s Law with electromagnets, transformers, and generators."
+            },
+            "subjects": [
+                4,
+                7,
+                11
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.7",
+            "versions": {
+                "en": "1.0.7"
+            },
+            "added": 1790369448
+        },
+        "faradays-law": {
+            "title": {
+                "en": "Faraday's Law"
+            },
+            "description": {
+                "en": "Investigate Faraday's law and how a changing magnetic flux can produce a flow of electricity!"
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.4.25",
+            "versions": {
+                "en": "1.4.25"
+            },
+            "added": 1790369448
+        },
+        "forces-and-motion-basics": {
+            "title": {
+                "en": "Forces and Motion: Basics"
+            },
+            "description": {
+                "en": "Explore the forces at work when pulling against a cart, and pushing a refrigerator, crate, or person. Create an applied force and see how it makes objects move. Change friction and see how it affects the motion of objects."
+            },
+            "subjects": [
+                4,
+                5
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "2.6.5",
+            "versions": {
+                "en": "2.6.5"
+            },
+            "added": 1790369448
+        },
+        "fourier-making-waves": {
+            "title": {
+                "en": "Fourier: Making Waves"
+            },
+            "description": {
+                "en": "Add up sines or cosines to make waves of different shapes. Discover how changing the amplitudes of different harmonics changes the sound you hear. Play the Wave Game and combine harmonics to match a target waveform. Construct wave packets and explore the effects of changing the spacing between Fourier components and wave packet width."
+            },
+            "subjects": [
+                4,
+                6,
+                9,
+                10,
+                13,
+                15,
+                20,
+                31
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.5",
+            "versions": {
+                "en": "1.1.5"
+            },
+            "added": 1790369448
+        },
+        "fraction-matcher": {
+            "title": {
+                "en": "Fraction Matcher"
+            },
+            "description": {
+                "en": "Match shapes and numbers to earn stars in this fractions game. Challenge yourself on any level you like. Try to collect lots of stars!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.2.21",
+            "versions": {
+                "en": "1.2.21"
+            },
+            "added": 1790369448
+        },
+        "fractions-equality": {
+            "title": {
+                "en": "Fractions: Equality"
+            },
+            "description": {
+                "en": "Build equivalent fractions with different denominators. Match shapes and numbers to earn stars in the game. Challenge yourself on any level you like. Try to collect lots of stars!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.1.22",
+            "versions": {
+                "en": "1.1.22"
+            },
+            "added": 1790369448
+        },
+        "fractions-intro": {
+            "title": {
+                "en": "Fractions: Intro"
+            },
+            "description": {
+                "en": "Explore fractions while you help yourself to 1/3 of a chocolate cake and wash it down with 1/2 a glass of water! Create your own fractions using fun interactive objects. Match shapes and numbers to earn stars in the fractions game. Challenge yourself on any level you like. Try to collect lots of stars!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.0.33",
+            "versions": {
+                "en": "1.0.33"
+            },
+            "added": 1790369448
+        },
+        "fractions-mixed-numbers": {
+            "title": {
+                "en": "Fractions: Mixed Numbers"
+            },
+            "description": {
+                "en": "Explore fractions while you help yourself to 1 and 1/2 chocolate cakes and wash it down with 1/3 a glass of water! Create your own fractions using fun interactive objects. Match shapes and numbers to earn stars in the mixed number game. Challenge yourself on any level you like. Try to collect lots of stars!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.0.33",
+            "versions": {
+                "en": "1.0.33"
+            },
+            "added": 1790369448
+        },
+        "friction": {
+            "title": {
+                "en": "Friction"
+            },
+            "description": {
+                "en": "Move the Chemistry book and observe what happens."
+            },
+            "subjects": [
+                4,
+                5,
+                8
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.6.23",
+            "versions": {
+                "en": "1.6.23"
+            },
+            "added": 1790369448
+        },
+        "function-builder": {
+            "title": {
+                "en": "Function Builder"
+            },
+            "description": {
+                "en": "Play with functions while you ponder Art History. Explore geometric transformations and transform your thinking about linear functions, then have fun figuring out the mystery functions!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.18",
+            "versions": {
+                "en": "1.2.18"
+            },
+            "added": 1790369448
+        },
+        "function-builder-basics": {
+            "title": {
+                "en": "Function Builder: Basics"
+            },
+            "description": {
+                "en": "Play with functions while you ponder Art History. Look for patterns, then apply what you learned on the Mystery screen!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.2.19",
+            "versions": {
+                "en": "1.2.19"
+            },
+            "added": 1790369448
+        },
+        "gas-properties": {
+            "title": {
+                "en": "Gas Properties"
+            },
+            "description": {
+                "en": "Pump gas molecules to a box and see what happens as you change the volume, add or remove heat, and more. Measure the temperature and pressure, and discover how the properties of the gas vary in relation to each other. Examine kinetic energy and speed histograms for light and heavy particles. Explore diffusion and determine how concentration, temperature, mass, and radius affect the rate of diffusion."
+            },
+            "subjects": [
+                4,
+                7,
+                8,
+                13,
+                14,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.10",
+            "versions": {
+                "en": "1.1.10"
+            },
+            "added": 1790369448
+        },
+        "gases-intro": {
+            "title": {
+                "en": "Gases Intro"
+            },
+            "description": {
+                "en": "Pump gas molecules to a box and see what happens as you change the volume, add or remove heat, and more. Measure the temperature and pressure, and discover how the properties of the gas vary in relation to each other."
+            },
+            "subjects": [
+                4,
+                8,
+                13,
+                14,
+                19
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.1.7",
+            "versions": {
+                "en": "1.1.7"
+            },
+            "added": 1790369448
+        },
+        "gene-expression-essentials": {
+            "title": {
+                "en": "Gene Expression Essentials"
+            },
+            "description": {
+                "en": "Express yourself through your genes! See if you can generate and collect three types of protein, then move on to explore the factors that affect protein synthesis in a cell."
+            },
+            "subjects": [
+                12
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.36",
+            "versions": {
+                "en": "1.0.36"
+            },
+            "added": 1790369448
+        },
+        "generator": {
+            "title": {
+                "en": "Generator"
+            },
+            "description": {
+                "en": "Generate electricity with a spinning bar magnet. Explore the underlying physics of a generator and discover how to maximize the brightness of a light bulb."
+            },
+            "subjects": [
+                4,
+                7,
+                11
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.7",
+            "versions": {
+                "en": "1.0.7"
+            },
+            "added": 1790369448
+        },
+        "geometric-optics": {
+            "title": {
+                "en": "Geometric Optics"
+            },
+            "description": {
+                "en": "How does a lens or mirror form an image? See how light rays are refracted by a lens or reflected by a mirror. Observe how the image changes when you adjust the focal length of the lens, move the object, or move the screen."
+            },
+            "subjects": [
+                4,
+                10
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.3.16",
+            "versions": {
+                "en": "1.3.16"
+            },
+            "added": 1790369448
+        },
+        "geometric-optics-basics": {
+            "title": {
+                "en": "Geometric Optics: Basics"
+            },
+            "description": {
+                "en": "How does a lens or mirror form an image? See how light rays are refracted by a lens or reflected by a mirror. Observe how the image changes when you adjust the focal length, move the object, or move the screen."
+            },
+            "subjects": [
+                4,
+                10
+            ],
+            "low": 0,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.3.16",
+            "versions": {
+                "en": "1.3.16"
+            },
+            "added": 1790369448
+        },
+        "graphing-lines": {
+            "title": {
+                "en": "Graphing Lines"
+            },
+            "description": {
+                "en": "Explore the world of lines. Investigate the relationships between linear equations, slope, and graphs of lines. Challenge yourself in the line game!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.4.8",
+            "versions": {
+                "en": "1.4.8"
+            },
+            "added": 1790369448
+        },
+        "graphing-quadratics": {
+            "title": {
+                "en": "Graphing Quadratics"
+            },
+            "description": {
+                "en": "Discover how changing coefficients changes the shape of a curve. View the graphs of individual terms (e.g. y=bx) to see how they add to generate the polynomial curve. Generate definitions for vertex, roots, and axis of symmetry. Compare different forms of a quadratic function. Define a curve by its focus and directrix."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.4.4",
+            "versions": {
+                "en": "1.4.4"
+            },
+            "added": 1790369448
+        },
+        "graphing-slope-intercept": {
+            "title": {
+                "en": "Graphing Slope-Intercept"
+            },
+            "description": {
+                "en": "Explore slope-intercept form of a line. Connect the slope and y-intercept to the equation of the line. Challenge yourself in the line game!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.8",
+            "versions": {
+                "en": "1.2.8"
+            },
+            "added": 1790369448
+        },
+        "gravity-and-orbits": {
+            "title": {
+                "en": "Gravity and Orbits"
+            },
+            "description": {
+                "en": "Move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies, and turn off gravity to see what would happen without it!"
+            },
+            "subjects": [
+                4,
+                5,
+                14
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.6.28",
+            "versions": {
+                "en": "1.6.28"
+            },
+            "added": 1790369448
+        },
+        "gravity-force-lab": {
+            "title": {
+                "en": "Gravity Force Lab"
+            },
+            "description": {
+                "en": "Visualize the gravitational force that two objects exert on each other. Adjust properties of the objects to see how changing the properties affects the gravitational attraction."
+            },
+            "subjects": [
+                4,
+                5,
+                14
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "2.2.25",
+            "versions": {
+                "en": "2.2.25"
+            },
+            "added": 1790369448
+        },
+        "gravity-force-lab-basics": {
+            "title": {
+                "en": "Gravity Force Lab: Basics"
+            },
+            "description": {
+                "en": "Visualize the gravitational force that two objects exert on each other. Discover the factors that affect gravitational attraction, and determine how adjusting these factors will change the gravitational force."
+            },
+            "subjects": [
+                4,
+                5,
+                14
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.1.27",
+            "versions": {
+                "en": "1.1.27"
+            },
+            "added": 1790369448
+        },
+        "greenhouse-effect": {
+            "title": {
+                "en": "Greenhouse Effect"
+            },
+            "description": {
+                "en": "How do greenhouse gases affect the climate? Explore the atmosphere during the ice age and today. What happens when you add clouds? Change the greenhouse gas concentration and see how the temperature changes."
+            },
+            "subjects": [
+                14
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.3.13",
+            "versions": {
+                "en": "1.3.13"
+            },
+            "added": 1790369448
+        },
+        "hookes-law": {
+            "title": {
+                "en": "Hooke's Law"
+            },
+            "description": {
+                "en": "Stretch and compress springs to explore the relationships between force, spring constant, displacement, and potential energy! Investigate what happens when two springs are connected in series and parallel."
+            },
+            "subjects": [
+                4,
+                5,
+                7
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.4",
+            "versions": {
+                "en": "1.2.4"
+            },
+            "added": 1790369448
+        },
+        "isotopes-and-atomic-mass": {
+            "title": {
+                "en": "Isotopes and Atomic Mass"
+            },
+            "description": {
+                "en": "Are all atoms of an element the same? How can you tell one isotope from another? Use the sim to learn about isotopes and how abundance relates to the average atomic mass of an element."
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.1",
+            "versions": {
+                "en": "1.2.1"
+            },
+            "added": 1790369448
+        },
+        "john-travoltage": {
+            "title": {
+                "en": "John Travoltage"
+            },
+            "description": {
+                "en": "Play with John’s foot and arm to explore when he gets a shock!"
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.6.26",
+            "versions": {
+                "en": "1.6.26"
+            },
+            "added": 1790369448
+        },
+        "keplers-laws": {
+            "title": {
+                "en": "Kepler's Laws"
+            },
+            "description": {
+                "en": "Interact with the variables to discover how planetary objects moves in elliptical orbits, and the other characteristics of these orbits described by the three Kepler’s Laws. Connect Astronomy with Math, by experimenting with ellipses, areas, and graphs."
+            },
+            "subjects": [
+                4,
+                5,
+                14,
+                15,
+                31
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.12",
+            "versions": {
+                "en": "1.2.12"
+            },
+            "added": 1790369448
+        },
+        "least-squares-regression": {
+            "title": {
+                "en": "Least-Squares Regression"
+            },
+            "description": {
+                "en": "Create your own scatter plot or use real-world data and try to fit a line to it! Explore how individual data points affect the correlation coefficient and best-fit line."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.5",
+            "versions": {
+                "en": "1.2.5"
+            },
+            "added": 1790369448
+        },
+        "magnet-and-compass": {
+            "title": {
+                "en": "Magnet and Compass"
+            },
+            "description": {
+                "en": "Explore the interactions between a compass and bar magnet. Relate the Earth’s magnetic field to a bar magnet. Vary the magnet's strength, and see how things change both inside and outside. Measure the direction and magnitude of the magnetic field."
+            },
+            "subjects": [
+                4,
+                11,
+                14
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.7",
+            "versions": {
+                "en": "1.0.7"
+            },
+            "added": 1790369448
+        },
+        "magnets-and-electromagnets": {
+            "title": {
+                "en": "Magnets and Electromagnets"
+            },
+            "description": {
+                "en": "Explore the interactions between a compass and bar magnet. Discover how you can use a battery and coil to make an electromagnet. Explore the ways to change the magnetic field, and measure its direction and magnitude around the magnet."
+            },
+            "subjects": [
+                4,
+                11
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.7",
+            "versions": {
+                "en": "1.0.7"
+            },
+            "added": 1790369448
+        },
+        "make-a-ten": {
+            "title": {
+                "en": "Make a Ten"
+            },
+            "description": {
+                "en": "Add numbers by making tens. Break apart and combine numbers while focusing on place value. Use the adding screen to add any two numbers. Use the game screen to apply your make-a-ten strategies!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 0,
+            "isNew": false,
+            "latest": "1.1.0",
+            "versions": {
+                "en": "1.1.0"
+            },
+            "added": 1790369448
+        },
+        "masses-and-springs": {
+            "title": {
+                "en": "Masses and Springs"
+            },
+            "description": {
+                "en": "Hang masses from springs and adjust the spring constant and damping. Transport the lab to different planets, or slow down time. Observe the forces and energy in the system in real-time, and measure the period using the stopwatch."
+            },
+            "subjects": [
+                4,
+                5,
+                7,
+                15,
+                31
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.29",
+            "versions": {
+                "en": "1.0.29"
+            },
+            "added": 1790369448
+        },
+        "masses-and-springs-basics": {
+            "title": {
+                "en": "Masses and Springs: Basics"
+            },
+            "description": {
+                "en": "Hang masses from springs and discover how they stretch and oscillate. Compare two mass-spring systems, and experiment with spring constant. Transport the lab to different planets, slow down time, and observe the velocity and acceleration throughout the oscillation."
+            },
+            "subjects": [
+                4,
+                5
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.0.28",
+            "versions": {
+                "en": "1.0.28"
+            },
+            "added": 1790369448
+        },
+        "mean-share-and-balance": {
+            "title": {
+                "en": "Mean: Share and Balance"
+            },
+            "description": {
+                "en": "Explore the mean by leveling cups of water, distributing candy bars, fairly sharing apples, and finding the balance point of a beam. Build a data set with a target mean. Challenge yourself to predict the mean before revealing it."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 1,
+            "isNew": true,
+            "latest": "1.1.9",
+            "versions": {
+                "en": "1.1.9"
+            },
+            "added": 1790369448
+        },
+        "membrane-transport": {
+            "title": {
+                "en": "Membrane Transport"
+            },
+            "description": {
+                "en": "Add different biological solutes to either side of a cell membrane and observe their behavior based on solute properties and concentrations. Add transport proteins and uncover some of the common mechanisms for transporting solutes across a cell membrane."
+            },
+            "subjects": [
+                12,
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.6",
+            "versions": {
+                "en": "1.0.6"
+            },
+            "added": 1790369448
+        },
+        "models-of-the-hydrogen-atom": {
+            "title": {
+                "en": "Models of the Hydrogen Atom"
+            },
+            "description": {
+                "en": "This simulation is designed for undergraduate level students who are studying atomic structure.  The simulation could also be used by high school students in advanced level physical science courses."
+            },
+            "subjects": [
+                4,
+                9,
+                10,
+                13,
+                19,
+                20
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.9",
+            "versions": {
+                "en": "1.0.9"
+            },
+            "added": 1790369448
+        },
+        "molarity": {
+            "title": {
+                "en": "Molarity"
+            },
+            "description": {
+                "en": "What determines the concentration of a solution? Learn about the relationships between moles, liters, and molarity by adjusting the amount of solute and solution volume. Change solutes to compare different chemical compounds in water."
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.5.24",
+            "versions": {
+                "en": "1.5.24"
+            },
+            "added": 1790369448
+        },
+        "molecule-polarity": {
+            "title": {
+                "en": "Molecule Polarity"
+            },
+            "description": {
+                "en": "When is a molecule polar? Change the electronegativity of atoms in a molecule to see how it affects polarity. See how the molecule behaves in an electric field. Change the bond angle to see how shape affects polarity."
+            },
+            "subjects": [
+                12,
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "2.0.3",
+            "versions": {
+                "en": "2.0.3"
+            },
+            "added": 1790369448
+        },
+        "molecule-shapes": {
+            "title": {
+                "en": "Molecule Shapes"
+            },
+            "description": {
+                "en": "Explore molecule shapes by building molecules in 3D! How does molecule shape change with different numbers of bonds and electron pairs? Find out by adding single, double or triple bonds and lone pairs to the central atom. Then, compare the model to real molecules!"
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.6.19",
+            "versions": {
+                "en": "1.6.19"
+            },
+            "added": 1790369448
+        },
+        "molecule-shapes-basics": {
+            "title": {
+                "en": "Molecule Shapes: Basics"
+            },
+            "description": {
+                "en": "Explore molecule shapes by building molecules in 3D! Find out how a molecule's shape changes as you add atoms to a molecule."
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.6.19",
+            "versions": {
+                "en": "1.6.19"
+            },
+            "added": 1790369448
+        },
+        "molecules-and-light": {
+            "title": {
+                "en": "Molecules and Light"
+            },
+            "description": {
+                "en": "Turn light source on to explore. Observe what happens in the observation window as you set up different combinations of light source and molecule. Note this simulation is the first to support our pan and zoom feature, so zoom in for a closer look, if you need to."
+            },
+            "subjects": [
+                4,
+                10,
+                13,
+                14,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.5.33",
+            "versions": {
+                "en": "1.5.33"
+            },
+            "added": 1790369448
+        },
+        "my-solar-system": {
+            "title": {
+                "en": "My Solar System"
+            },
+            "description": {
+                "en": "Build your own system of heavenly bodies and watch the gravitational ballet. With this orbit simulator, you can set initial positions, velocities, and masses of 2, 3, or 4 bodies, and then see them orbit each other."
+            },
+            "subjects": [
+                4,
+                5,
+                14
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.3.16",
+            "versions": {
+                "en": "1.3.16"
+            },
+            "added": 1790369448
+        },
+        "natural-selection": {
+            "title": {
+                "en": "Natural Selection"
+            },
+            "description": {
+                "en": "Explore how organisms with different traits survive various selection agents within the environment."
+            },
+            "subjects": [
+                12
+            ],
+            "low": 0,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.5.15",
+            "versions": {
+                "en": "1.5.15"
+            },
+            "added": 1790369448
+        },
+        "neuron": {
+            "title": {
+                "en": "Neuron"
+            },
+            "description": {
+                "en": "Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in time in order to observe the ions as they move across the neuron membrane."
+            },
+            "subjects": [
+                12
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.36",
+            "versions": {
+                "en": "1.1.36"
+            },
+            "added": 1790369448
+        },
+        "number-compare": {
+            "title": {
+                "en": "Number Compare"
+            },
+            "description": {
+                "en": "Compare numbers represented as numerals, objects, groups, and ten frames. Use a sentence, number line, or stacked units to determine the larger group. Hear the comparison spoken aloud in two different languages."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 0,
+            "isNew": false,
+            "latest": "1.0.13",
+            "versions": {
+                "en": "1.0.13"
+            },
+            "added": 1790369448
+        },
+        "number-line-distance": {
+            "title": {
+                "en": "Number Line: Distance"
+            },
+            "description": {
+                "en": "Subtraction is more than an operation- it is also the distance between two numbers! Explore the distance between a person and house, a bird and a fish, and the difference in temperature between two locations. Compare absolute distance and directed distance, and strengthen your number line muscles."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.1.11",
+            "versions": {
+                "en": "1.1.11"
+            },
+            "added": 1790369448
+        },
+        "number-line-integers": {
+            "title": {
+                "en": "Number Line: Integers"
+            },
+            "description": {
+                "en": "What do elevation, account balances, and temperature have in common? They can all be represented on a number line. Compare integers on a number line and in an inequality statement. Discover the meaning of absolute value."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.2.12",
+            "versions": {
+                "en": "1.2.12"
+            },
+            "added": 1790369448
+        },
+        "number-line-operations": {
+            "title": {
+                "en": "Number Line: Operations"
+            },
+            "description": {
+                "en": "Explore operations with integers using an authentic context of net worth, then generalize with a number line. Experiment with adding and subtracting both positives and negatives, and make predictions about whether the total will be positive or negative."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.1.10",
+            "versions": {
+                "en": "1.1.10"
+            },
+            "added": 1790369448
+        },
+        "number-pairs": {
+            "title": {
+                "en": "Number Pairs"
+            },
+            "description": {
+                "en": "Create number pairs to compose, decompose, and add numbers from 0-20 in multiple contexts. Play with magic beads and kittens that can change color! Add numbers on a number line!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 0,
+            "isNew": true,
+            "latest": "2.0.4",
+            "versions": {
+                "en": "2.0.4"
+            },
+            "added": 1790369448
+        },
+        "number-play": {
+            "title": {
+                "en": "Number Play"
+            },
+            "description": {
+                "en": "Play with counting and cardinality. Compare representations, including word, numeral, ten frame, and objects. Hear the number spoken aloud in two different languages. Challenge yourself to subitize numbers up to ten!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 0,
+            "isNew": false,
+            "latest": "1.1.13",
+            "versions": {
+                "en": "1.1.13"
+            },
+            "added": 1790369448
+        },
+        "ohms-law": {
+            "title": {
+                "en": "Ohm's Law"
+            },
+            "description": {
+                "en": "See how the equation form of Ohm's law relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm's law."
+            },
+            "subjects": [
+                4,
+                11,
+                15,
+                31
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.4.31",
+            "versions": {
+                "en": "1.4.31"
+            },
+            "added": 1790369448
+        },
+        "pendulum-lab": {
+            "title": {
+                "en": "Pendulum Lab"
+            },
+            "description": {
+                "en": "Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, the strength of gravity, and the amplitude of the swing. Observe the energy in the system in real-time, and vary the amount of friction. Measure the period using the stopwatch or period timer. Use the pendulum to find the value of g on Planet X. Notice the anharmonic behavior at large amplitude."
+            },
+            "subjects": [
+                4,
+                5,
+                7,
+                15,
+                31
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.35",
+            "versions": {
+                "en": "1.0.35"
+            },
+            "added": 1790369448
+        },
+        "ph-scale": {
+            "title": {
+                "en": "pH Scale"
+            },
+            "description": {
+                "en": "Test the pH of things like coffee, spit, and soap to determine whether each is acidic, basic, or neutral. Visualize the relative number of hydroxide ions and hydronium ions in solution. Switch between logarithmic and linear scales. Investigate whether changing the volume or diluting with water affects the pH. Or you can design your own liquid!"
+            },
+            "subjects": [
+                12,
+                13,
+                14,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.7.6",
+            "versions": {
+                "en": "1.7.6"
+            },
+            "added": 1790369448
+        },
+        "ph-scale-basics": {
+            "title": {
+                "en": "pH Scale: Basics"
+            },
+            "description": {
+                "en": "Test the pH of everyday liquids such as coffee, spit, and soap to determine whether each is acidic, basic, or neutral. Investigate how adding more of a liquid or diluting with water affects pH."
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.7.5",
+            "versions": {
+                "en": "1.7.5"
+            },
+            "added": 1790369448
+        },
+        "plinko-probability": {
+            "title": {
+                "en": "Plinko Probability"
+            },
+            "description": {
+                "en": "Drop balls through a triangular grid of pegs and see them accumulate in containers. Switch to a histogram view and compare the distribution of balls to an ideal binomial distribution. Adjust the binary probability and develop your knowledge of statistics!"
+            },
+            "subjects": [
+                4,
+                8,
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.36",
+            "versions": {
+                "en": "1.1.36"
+            },
+            "added": 1790369448
+        },
+        "projectile-data-lab": {
+            "title": {
+                "en": "Projectile Data Lab"
+            },
+            "description": {
+                "en": "The Projectile Data Lab simulation allows students to engage in hands-on data collection and analysis through the context of projectile motion."
+            },
+            "subjects": [
+                4,
+                5,
+                15,
+                31
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.12",
+            "versions": {
+                "en": "1.0.12"
+            },
+            "added": 1790369448
+        },
+        "projectile-motion": {
+            "title": {
+                "en": "Projectile Motion"
+            },
+            "description": {
+                "en": "Blast a car out of a cannon, and challenge yourself to hit a target! Learn about projectile motion by firing various objects. Set parameters such as angle, initial speed, and mass. Explore vector representations, and add air resistance to investigate the factors that influence drag."
+            },
+            "subjects": [
+                4,
+                5,
+                15,
+                31
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.34",
+            "versions": {
+                "en": "1.0.34"
+            },
+            "added": 1790369448
+        },
+        "projectile-sampling-distributions": {
+            "title": {
+                "en": "Projectile Sampling Distributions"
+            },
+            "description": {
+                "en": "Engage in hands-on data collection and analysis through the rich context of launching projectiles. Explore how different launch parameters create a variety of distributions as you watch the Central Limit Theorem come to life!"
+            },
+            "subjects": [
+                15,
+                31
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.0.13",
+            "versions": {
+                "en": "1.0.13"
+            },
+            "added": 1790369448
+        },
+        "proportion-playground": {
+            "title": {
+                "en": "Proportion Playground"
+            },
+            "description": {
+                "en": "Play with ratios and proportions by designing a necklace, throwing paint balloons, playing billiards, or shopping for apples! Make predictions about proportions before they are revealed."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.0.33",
+            "versions": {
+                "en": "1.0.33"
+            },
+            "added": 1790369448
+        },
+        "quadrilateral": {
+            "title": {
+                "en": "Quadrilateral"
+            },
+            "description": {
+                "en": "Explore the properties of and relationships between named four-sided shapes by moving sides and corners of a quadrilateral."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.1.14",
+            "versions": {
+                "en": "1.1.14"
+            },
+            "added": 1790369448
+        },
+        "quantum-coin-toss": {
+            "title": {
+                "en": "Quantum Coin Toss"
+            },
+            "description": {
+                "en": "Compare the similarities and differences between classical biased coins and quantum \"coins\" that can be prepared in a superposition of states!"
+            },
+            "subjects": [
+                4,
+                13,
+                20
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.4",
+            "versions": {
+                "en": "1.0.4"
+            },
+            "added": 1790369448
+        },
+        "quantum-measurement": {
+            "title": {
+                "en": "Quantum Measurement"
+            },
+            "description": {
+                "en": "Explore 2-level quantum systems and the results of measuring quantum states. Discover the similarities and differences between how a flip of a classical biased coin compares to observations of a quantum \"coin\". Discover how a quantum state can be visualized with the Bloch sphere representation."
+            },
+            "subjects": [
+                4,
+                9,
+                13,
+                20
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.5",
+            "versions": {
+                "en": "1.0.5"
+            },
+            "added": 1790369448
+        },
+        "quantum-wave-interference": {
+            "title": {
+                "en": "Quantum Wave Interference"
+            },
+            "description": {
+                "en": "When do photons, electrons, and atoms behave like particles and when do they behave like waves? Watch waves spread out and interfere as they pass through a double slit, then get detected on a screen as tiny dots. Use quantum detectors to explore how measurements change the waves and the patterns they produce on the screen."
+            },
+            "subjects": [
+                4,
+                6,
+                9,
+                13,
+                20
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": true,
+            "latest": "1.0.0",
+            "versions": {
+                "en": "1.0.0"
+            },
+            "added": 1790369448
+        },
+        "ratio-and-proportion": {
+            "title": {
+                "en": "Ratio and Proportion"
+            },
+            "description": {
+                "en": "Play with the left and right hands in different ways, and explore ratio and proportion. Start on the Discover screen to find each challenge ratio by moving the hands. Then, on the Create screen, set your own challenge ratios. Once you've found a challenge ratio, try to move both hands while maintaining the challenge ratio through proportional reasoning."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "1.2.22",
+            "versions": {
+                "en": "1.2.22"
+            },
+            "added": 1790369448
+        },
+        "reactants-products-and-leftovers": {
+            "title": {
+                "en": "Reactants, Products and Leftovers"
+            },
+            "description": {
+                "en": "Create your own sandwich and then see how many sandwiches you can make with different amounts of ingredients. Do the same with chemical reactions. See how many products you can make with different amounts of reactants. Play a game to test your understanding of reactants, products and leftovers. Can you get a perfect score on each level?"
+            },
+            "subjects": [
+                13,
+                19
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.3.5",
+            "versions": {
+                "en": "1.3.5"
+            },
+            "added": 1790369448
+        },
+        "resistance-in-a-wire": {
+            "title": {
+                "en": "Resistance in a Wire"
+            },
+            "description": {
+                "en": "Observe changes to the equation and wire as you play with the resistivity, length, and area sliders."
+            },
+            "subjects": [
+                4,
+                11,
+                15,
+                31
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.7.0",
+            "versions": {
+                "en": "1.7.0"
+            },
+            "added": 1790369448
+        },
+        "rutherford-scattering": {
+            "title": {
+                "en": "Rutherford Scattering"
+            },
+            "description": {
+                "en": "How did Rutherford figure out the structure of the atom without being able to see it? Simulate the famous experiment in which he disproved the Plum Pudding model of the atom by observing alpha particles bouncing off atoms and determining that they must have a small core."
+            },
+            "subjects": [
+                4,
+                9,
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.0",
+            "versions": {
+                "en": "1.2.0"
+            },
+            "added": 1790369448
+        },
+        "states-of-matter": {
+            "title": {
+                "en": "States of Matter"
+            },
+            "description": {
+                "en": "Watch different types of molecules form a solid, liquid, or gas. Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules."
+            },
+            "subjects": [
+                4,
+                8,
+                13,
+                19
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.23",
+            "versions": {
+                "en": "1.2.23"
+            },
+            "added": 1790369448
+        },
+        "states-of-matter-basics": {
+            "title": {
+                "en": "States of Matter: Basics"
+            },
+            "description": {
+                "en": "Heat, cool and compress atoms and molecules and watch as they change between solid, liquid and gas phases."
+            },
+            "subjects": [
+                4,
+                8,
+                13,
+                19
+            ],
+            "low": 0,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.2.23",
+            "versions": {
+                "en": "1.2.23"
+            },
+            "added": 1790369448
+        },
+        "trig-tour": {
+            "title": {
+                "en": "Trig Tour"
+            },
+            "description": {
+                "en": "Take a tour of trigonometry using degrees or radians! Look for patterns in the values and on the graph when you change the value of theta. Compare the graphs of sine, cosine, and tangent."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.9",
+            "versions": {
+                "en": "1.1.9"
+            },
+            "added": 1790369448
+        },
+        "under-pressure": {
+            "title": {
+                "en": "Under Pressure"
+            },
+            "description": {
+                "en": "Explore pressure under and above water. See how pressure changes as you change fluids, gravity, container shapes, and volume."
+            },
+            "subjects": [
+                4,
+                14
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.1.36",
+            "versions": {
+                "en": "1.1.36"
+            },
+            "added": 1790369448
+        },
+        "unit-rates": {
+            "title": {
+                "en": "Unit Rates"
+            },
+            "description": {
+                "en": "Discover the unit rate while shopping for fruits, vegetables, and candy. Construct a double number line and look for patterns. Challenge yourself on the race track as you compare cars with different rates!"
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 1,
+            "high": 2,
+            "isNew": false,
+            "latest": "1.1.5",
+            "versions": {
+                "en": "1.1.5"
+            },
+            "added": 1790369448
+        },
+        "vector-addition": {
+            "title": {
+                "en": "Vector Addition"
+            },
+            "description": {
+                "en": "Explore vectors in 1D or 2D, and discover how vectors add together. Specify vectors in Cartesian or polar coordinates, and see the magnitude, angle, and components of each vector. Experiment with vector equations and compare vector sums and differences."
+            },
+            "subjects": [
+                4,
+                5,
+                15,
+                30
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.4",
+            "versions": {
+                "en": "1.2.4"
+            },
+            "added": 1790369448
+        },
+        "vector-addition-equations": {
+            "title": {
+                "en": "Vector Addition: Equations"
+            },
+            "description": {
+                "en": "Experiment with vector equations and compare vector sums and differences. Customize the base vectors or explore scalar multiplication by adjusting the coefficients in equation. Specify vectors in Cartesian or polar coordinates, and view the magnitude, angle, and components of each vector."
+            },
+            "subjects": [
+                15,
+                30
+            ],
+            "low": 2,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.4",
+            "versions": {
+                "en": "1.2.4"
+            },
+            "added": 1790369448
+        },
+        "wave-interference": {
+            "title": {
+                "en": "Wave Interference"
+            },
+            "description": {
+                "en": "Make waves with a dripping faucet, audio speaker, or laser! Add a second source to create an interference pattern. Put up a barrier to explore single-slit diffraction and double-slit interference. Experiment with diffraction through elliptical, rectangular, or irregular apertures."
+            },
+            "subjects": [
+                4,
+                6,
+                10,
+                14
+            ],
+            "low": 0,
+            "high": 3,
+            "isNew": false,
+            "latest": "2.1.0",
+            "versions": {
+                "en": "2.1.0"
+            },
+            "added": 1790369448
+        },
+        "wave-on-a-string": {
+            "title": {
+                "en": "Wave on a String"
+            },
+            "description": {
+                "en": "Explore the wonderful world of waves! Even observe a string vibrate in slow motion. Wiggle the end of the string and make waves, or adjust the frequency and amplitude of an oscillator."
+            },
+            "subjects": [
+                4,
+                6,
+                13,
+                14,
+                15,
+                19,
+                31
+            ],
+            "low": 1,
+            "high": 3,
+            "isNew": false,
+            "latest": "1.2.4",
+            "versions": {
+                "en": "1.2.4"
+            },
+            "added": 1790369448
+        },
+        "waves-intro": {
+            "title": {
+                "en": "Waves Intro"
+            },
+            "description": {
+                "en": "Make waves with a dripping faucet, audio speaker, or laser! Adjust frequency and amplitude, and observe the effects. Hear the sound produced by the speaker, and discover what determines the color of light."
+            },
+            "subjects": [
+                4,
+                6,
+                10,
+                14
+            ],
+            "low": 0,
+            "high": 1,
+            "isNew": false,
+            "latest": "2.1.0",
+            "versions": {
+                "en": "2.1.0"
+            },
+            "added": 1790369448
+        }
+    },
+    "pending": 0,
+    "first_run": 1790369448
+}

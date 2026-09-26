@@ -1,0 +1,21 @@
+# Downloaded content: every server fetches its own copy with the updater
+# /sims/*.html
+# /sims/*.part
+# /sims/thumbs/*.png
+# /sims/thumbs/*.part
+
+# Runtime data
+# /data/*.json
+# /data/*.tmp
+# /data/*.log
+# /data/*.lock
+
+# Per-server settings (admin password etc.)
+/config.local.php
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
